@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 627: expected a keyword argument, colon, or end of line.
+    image = "test.png"
+          ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Fri Sep 17 15:49:42 2021

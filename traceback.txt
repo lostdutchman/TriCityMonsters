@@ -1,0 +1,56 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "game/screens.rpy", line 606, in prepare_screen
+    screen about():
+  File "game/screens.rpy", line 606, in prepare
+    screen about():
+  File "game/screens.rpy", line 613, in prepare
+    use game_menu(_("Credits"), scroll="viewport"):
+  File "game/screens.rpy", line 613, in prepare
+    use game_menu(_("Credits"), scroll="viewport"):
+  File "game/screens.rpy", line 617, in prepare
+    vbox:
+  File "game/screens.rpy", line 617, in prepare
+    vbox:
+  File "game/screens.rpy", line 626, in prepare
+    text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]\n\n[renpy.license!t].
+SyntaxError: EOL while scanning string literal (screens.rpy, line 626)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 617, in main
+    run(restart)
+  File "renpy/main.py", line 97, in run
+    renpy.display.screen.prepare_screens()
+  File "renpy/display/screen.py", line 939, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/screens.rpy", line 606, in prepare_screen
+    screen about():
+  File "game/screens.rpy", line 606, in prepare
+    screen about():
+  File "game/screens.rpy", line 613, in prepare
+    use game_menu(_("Credits"), scroll="viewport"):
+  File "game/screens.rpy", line 613, in prepare
+    use game_menu(_("Credits"), scroll="viewport"):
+  File "game/screens.rpy", line 617, in prepare
+    vbox:
+  File "game/screens.rpy", line 617, in prepare
+    vbox:
+  File "game/screens.rpy", line 626, in prepare
+    text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only]\n\n[renpy.license!t].
+  File "renpy/pyanalysis.py", line 712, in ast_eval
+    return self.ast_eval_literal(expr)[0]
+  File "renpy/pyanalysis.py", line 696, in ast_eval_literal
+    expr = py_compile(expr, 'eval', ast_node=True)
+  File "renpy/python.py", line 835, in py_compile
+    raise e
+SyntaxError: EOL while scanning string literal (screens.rpy, line 626)
+
+Windows-7-6.1.7601-SP1
+Ren'Py 7.4.8.1895
+Tri City Monsters 1.0
+Fri Sep 17 16:34:00 2021
