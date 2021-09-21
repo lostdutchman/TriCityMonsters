@@ -422,26 +422,26 @@ label after_load:
 
 # TODO: If you would like to be hidden by default, change True to False.
 
-default persistent.displaypronouns = True
+default persistent.displaypronouns = False
 
 # TODO: Next, define the pronouns for each of your characters. This is done by adding the "show_pronouns=###" argument to a Character/DynamicCharacter, with ### replaced by the pronouns you want to ues.
 
 # Example: The narrator of this tool. Their pronouns are they/them, so for show_pronouns we use pronounlist[2].
-define p = Character(_("Pronoun Parrot"), image="pronounparrot", show_pronouns="[pronounlist[2]!t]")
+#define p = Character(_("Pronoun Parrot"), image="pronounparrot", show_pronouns="[pronounlist[2]!t]")
 
 # Example: To show the main character with their selected pronouns, use the selectedpronouns variable.
 
 # TODO: Change MCEXAMPLE and MAIN CHARACTER NAME HERE to fit your main character. Alternatively, use a DynamicCharacter instead if your game allows the player to input their own name. You can see an example of a DynamicCharacter in script.rpy.
 
-define MCEXAMPLE = Character(_("MAIN CHARACTER NAME HERE"), show_pronouns="[selectedpronouns!t]")
+#define MCEXAMPLE = Character(_("MAIN CHARACTER NAME HERE"), show_pronouns="[selectedpronouns!t]")
 
 # You can also set characters with changing pronouns in the same way. Here is a variable to set a genderflux character's pronouns to she/her first.
 
-default gfpronouns = pronounlist[1]
+#default gfpronouns = pronounlist[1]
 
 # Then, the variable is set to the show_pronouns argument for the genderflux character.
 
-define gfc = Character(_("Genderflux Character"), show_pronouns="[gfpronouns!t]")
+#define gfc = Character(_("Genderflux Character"), show_pronouns="[gfpronouns!t]")
 
 # If you change the gfpronouns variable in-game, the pronouns displayed for the genderflux character will also change. Below is an example code setting the genderflux character's pronouns to they/them.
 
