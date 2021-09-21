@@ -260,7 +260,7 @@ screen quick_menu():
             textbutton _("Save") action ShowMenu('save')
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Options") action ShowMenu('preferences')
+            textbutton _("Options") action ShowMenu('options')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -313,7 +313,7 @@ screen navigation():
         textbutton _("Load") action ShowMenu("load")
         
 
-        textbutton _("Options") action ShowMenu("preferences")
+        textbutton _("Options") action ShowMenu("options")
         
 
         if _in_replay:
@@ -398,7 +398,7 @@ screen main_menu():
         imagebutton auto "gui/mm_load_%s.png" xpos 0.625 ypos 572 focus_mask True action ShowMenu("load") hovered [Play ("sound", "audio/neonbuzz.ogg") ]
 
        #textbutton _("Preferences") action ShowMenu("preferences")
-        imagebutton auto "gui/mm_options_%s.png" xpos 0.625 ypos 672 focus_mask True action ShowMenu("preferences") hovered [Play ("sound", "audio/neonbuzz.ogg") ]
+        imagebutton auto "gui/mm_options_%s.png" xpos 0.625 ypos 672 focus_mask True action ShowMenu("options") hovered [Play ("sound", "audio/neonbuzz.ogg") ]
 
         if _in_replay:
 
@@ -766,14 +766,11 @@ style slot_button_text:
     properties gui.button_text_properties("slot_button")
 
 
-## Preferences screen ##########################################################
-##
-## The preferences screen allows the player to configure the game to better suit
-## themselves.
+## Options screen ##########################################################
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#preferences
 
-screen preferences():
+screen options():
 
     tag menu
 
