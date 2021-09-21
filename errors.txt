@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 627: expected a keyword argument, colon, or end of line.
-    image = "test.png"
-          ^
+File "game/pronountool.rpy", line 316: Line is indented, but the preceding label statement does not expect a block. Please check this line's indentation.
+    textbutton _("Change Pronouns") action Call("pronounselection") 
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Sep 17 15:49:42 2021
+Tue Sep 21 15:06:42 2021

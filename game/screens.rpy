@@ -781,6 +781,12 @@ screen options():
             hbox:
                 box_wrap True
 
+                if not main_menu:
+                    vbox:
+                        label _("Names")
+                        textbutton _("Change Pronouns") action Call("pronounselection")
+                        textbutton _("Change Name") action Call("nameselection")
+
                 if renpy.variant("pc") or renpy.variant("web"):
 
                     vbox:
@@ -802,9 +808,6 @@ screen options():
                     textbutton _("Unseen Text") action Preference("skip", "toggle")
                     textbutton _("After Choices") action Preference("after choices", "toggle")
                     textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
-
-                ## Additional vboxes of type "radio_pref" or "check_pref" can be
-                ## added here, to add additional creator-defined preferences.
 
             null height (4 * gui.pref_spacing)
 

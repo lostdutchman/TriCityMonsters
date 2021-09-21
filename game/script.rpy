@@ -24,14 +24,9 @@ label splashscreen:
 # The game starts here.
 
 label start:
+    call nameselection
 
-    $ povname = renpy.input("Please sign in:")
-    $ povname = povname.strip()
-
-    if not povname:
-     $povname = "Bababooie"
-
-     pov "My name is [povname]!"
+    pov "My name is [povname]!"
 
     label pronoun:
 
