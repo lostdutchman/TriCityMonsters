@@ -44,6 +44,7 @@ label splashscreen:
 # The game starts here.
 
 label start:
+    stop music fadeout 1.0
     call ch1
 
     call nameselection

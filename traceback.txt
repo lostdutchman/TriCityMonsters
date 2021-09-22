@@ -1,78 +1,54 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00gamemenu.rpy", line 173, in script
-    $ ui.interact()
-  File "renpy/common/00gamemenu.rpy", line 173, in <module>
-    $ ui.interact()
-  File "renpy/common/00action_menu.rpy", line 107, in __call__
-    raise Exception("%r is not a screen or a label." % orig_screen)
-Exception: u'pronouns' is not a screen or a label.
+  File "game/script.rpy", line 48, in script call
+    call ch1
+  File "game/ch1.rpy", line 14, in script
+    pov "So.  The city.  Sure, it has its problems.  Lots of them.  But one of the benefits is that there's stuff to do even late at night."
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+IOError: Couldn't find file 'cityambience.wav'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00gamemenu.rpy", line 173, in script
-    $ ui.interact()
-  File "renpy/ast.py", line 923, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 2235, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00gamemenu.rpy", line 173, in <module>
-    $ ui.interact()
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/script.rpy", line 48, in script call
+    call ch1
+  File "game/ch1.rpy", line 14, in script
+    pov "So.  The city.  Sure, it has its problems.  Lots of them.  But one of the benefits is that there's stuff to do even late at night."
+  File "renpy/ast.py", line 684, in execute
+    statement_name(getattr(who, "statement_name", "say"))
+  File "renpy/ast.py", line 46, in statement_name
+    i(name)
+  File "renpy/common/000window.rpy", line 114, in _window_auto_callback
+    _window_show(auto=True)
+  File "renpy/common/000window.rpy", line 69, in _window_show
+    renpy.with_statement(trans)
+  File "renpy/exports.py", line 1682, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "renpy/display/core.py", line 2718, in do_with
+    clear=clear)
   File "renpy/display/core.py", line 3276, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 4110, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/transition.py", line 48, in event
-    return self.new_widget.event(ev, x, y, st) # E1101
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/screen.py", line 720, in event
-    rv = self.child.event(ev, x, y, st)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1297, in event
-    rv = super(Window, self).event(ev, x, y, st)
-  File "renpy/display/layout.py", line 273, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1297, in event
-    rv = super(Window, self).event(ev, x, y, st)
-  File "renpy/display/layout.py", line 273, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "renpy/display/layout.py", line 273, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "renpy/display/viewport.py", line 294, in event
-    rv = super(Viewport, self).event(ev, x, y, st)
-  File "renpy/display/layout.py", line 273, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/layout.py", line 1090, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "renpy/display/behavior.py", line 979, in event
-    return handle_click(self.clicked)
-  File "renpy/display/behavior.py", line 914, in handle_click
-    rv = run(action)
-  File "renpy/display/behavior.py", line 329, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_menu.rpy", line 107, in __call__
-    raise Exception("%r is not a screen or a label." % orig_screen)
-Exception: u'pronouns' is not a screen or a label.
+  File "renpy/display/core.py", line 3979, in interact_core
+    renpy.audio.audio.periodic()
+  File "renpy/audio/audio.py", line 1138, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "renpy/audio/audio.py", line 1116, in periodic_thread_main
+    periodic_pass()
+  File "renpy/audio/audio.py", line 1058, in periodic_pass
+    c.periodic()
+  File "renpy/audio/audio.py", line 512, in periodic
+    topf = load(filename)
+  File "renpy/audio/audio.py", line 69, in load
+    rv = renpy.loader.load(fn)
+  File "renpy/loader.py", line 798, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'cityambience.wav'.
 
-Windows-10-10.0.19041
+Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
 Tri City Monsters 1.0
-Tue Sep 21 15:02:05 2021
+Wed Sep 22 14:36:19 2021
