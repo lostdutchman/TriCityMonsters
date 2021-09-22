@@ -44,6 +44,8 @@ label splashscreen:
 # The game starts here.
 
 label start:
+    call ch1
+
     call nameselection
 
     pov "My name is [povname]!"

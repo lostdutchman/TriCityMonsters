@@ -2,9 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/pronountool.rpy", line 316: Line is indented, but the preceding label statement does not expect a block. Please check this line's indentation.
-    textbutton _("Change Pronouns") action Call("pronounselection") 
-    ^
+The label start is defined twice, at File "game/ch1.rpy", line 4:
+label start:
+and File "game/script.rpy", line 46:
+label start:
+
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Tue Sep 21 15:06:42 2021
+Wed Sep 22 11:58:16 2021
