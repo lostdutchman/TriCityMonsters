@@ -55,13 +55,13 @@ define gui.interface_text_color = u'#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "fonts/Roboto-Regular.ttf"
+define gui.text_font = "fonts/Aller_Rg.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "fonts/Eclairages.ttf"
+define gui.name_text_font = "fonts/Rift-Bold.otf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "fonts/Roboto-Regular.ttf"
+define gui.interface_text_font = "fonts/Aller_Rg.ttf"
 
 define gui.label_text_font = "fonts/Rift-Medium.otf"
 
@@ -108,7 +108,7 @@ define gui.textbox_yalign = 1.0
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 0.29
+define gui.name_xpos = 0.25
 define gui.name_ypos = -18
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
@@ -117,12 +117,12 @@ define gui.name_xalign = 0.5
 
 ## The width, height, and borders of the box containing the character's name, or
 ## None to automatically size it.
-define gui.namebox_width = 500
+define gui.namebox_width = 400
 define gui.namebox_height = 85
 
 ## The borders of the box containing the character's name, in left, top, right,
 ## bottom order.
-define gui.namebox_borders = Borders(3, 3, 3, 3)
+define gui.namebox_borders = Borders(3, 3, 3, 10)
 
 ## If True, the background of the namebox will be tiled, if False, the
 ## background of the namebox will be scaled.
