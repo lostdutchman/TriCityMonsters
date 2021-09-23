@@ -19,15 +19,28 @@ label ch1:
     
     scene bg alley with dissolve
     stop music fadeout 1.0
-    play music "audio/punkmuffled.ogg" fadein 1.0 volume 0.50
+    play music "audio/punkmuffled.ogg" fadein 1.0 volume 0.25
     show pitrats at Position(xpos=0.7, ypos=0.6)
     with dissolve
 
-    prename "Pitrat's is very small.  It's kind of gross and a little seedy but it's fun and the crowds are energetic.  I've been to bigger venues before but this skanky little place has its own charm."
+    prename "Pitrats is very small.  It's kind of gross and a little seedy but it's fun and the crowds are energetic.  I've been to bigger venues before but this skanky little place has its own charm."
+    prename "I don't really consider myself like a Diehard Punk or anything but Pitrats has been a godsend on these sleepless nights.  I give the bouncer my $5 cover and head down the dark, dank stairs underground."
+
+    hide pitrats
+    scene bg venue with dissolve
+    play music "audio/punk.ogg" fadein 1.0 volume 0.35
+
+    prename "Inside, it smells like cheap cigarettes and stale beer.  Among other things.  But the energy hits me before I've even fully entered the larger basement room a the bottom of the steps."
+    prename "The bass pounds in my guts and there's a vocalist scream-singing words I can't really understand.  There's a bigger crowd here tonight than usual and the floor is jam-packed."
+    prename "At the front of the crowd, I can see the frenzied movements of the mosh pit and past that, the stage sits... It's maybe ten or so inches off the concrete floor and shoddily made out of plywood."
+    
+    stop music fadeout 1.0
+
+    prename "The cacophany dies down after another second, the band finishing their set with a last smashing chord that vibrates through the building and sends a wave of shouts up from the jumping crowd."
+
 
     
 
-    pov ""
 
    
     return
