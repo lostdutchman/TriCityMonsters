@@ -3,9 +3,9 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define pov = Character("[povname]")
+define pov = Character("[povname]", color="#FFFFFF")
 define mori = Character("Coordinator")
-define prename = Character("")
+define prename = Character("", color="#FFFFFF")
 default povname = "Emcee"
 
 # Flags
