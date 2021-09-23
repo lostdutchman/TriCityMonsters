@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 252: u'text_font' is not a keyword argument or valid child for the hbox statement.
-    text_font "fonts/Rift-Medium.otf"
-             ^
+File "game/script.rpy", line 7: expected '=' not found.
+    define mori? = Character("Some Dude")
+               ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Sep 23 05:20:35 2021
+Thu Sep 23 06:50:24 2021

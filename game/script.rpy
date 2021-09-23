@@ -4,7 +4,7 @@
 # name of the character.
 
 define pov = Character("[povname]", color="#FFFFFF")
-define mori = Character("Coordinator")
+define morix = Character("Some Dude", color="#cf6675")
 define prename = Character("", color="#FFFFFF")
 default povname = "Emcee"
 
