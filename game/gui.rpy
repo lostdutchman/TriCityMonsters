@@ -66,10 +66,10 @@ define gui.interface_text_font = "fonts/Aller_Rg.ttf"
 define gui.label_text_font = "fonts/Rift-Medium.otf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 33
+define gui.text_size = 36
 
 ## The size of character names.
-define gui.name_text_size = 45
+define gui.name_text_size = 48
 
 ## The size of text in the game's user interface.
 define gui.interface_text_size = 33
@@ -105,7 +105,6 @@ define gui.textbox_height = 278
 ## center, and 1.0 is the bottom.
 define gui.textbox_yalign = 1.0
 
-
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
 define gui.name_xpos = 0.25
@@ -122,7 +121,7 @@ define gui.namebox_height = 85
 
 ## The borders of the box containing the character's name, in left, top, right,
 ## bottom order.
-define gui.namebox_borders = Borders(3, 3, 3, 10)
+define gui.namebox_borders = Borders(3, 3, 3, 7)
 
 ## If True, the background of the namebox will be tiled, if False, the
 ## background of the namebox will be scaled.
@@ -191,7 +190,7 @@ define gui.confirm_button_text_xalign = 0.5
 define gui.page_button_borders = Borders(15, 6, 15, 6)
 
 define gui.quick_button_borders = Borders(15, 6, 15, 0)
-define gui.quick_button_text_size = 21
+define gui.quick_button_text_size = 25
 define gui.quick_button_text_idle_color = gui.idle_small_color
 define gui.quick_button_text_selected_color = gui.accent_color
 
