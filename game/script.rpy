@@ -5,7 +5,7 @@
 
 define pov = Character("[povname]")
 define mori = Character("Coordinator")
-define e = Character("Eileen")
+define prename = Character("")
 default povname = "Emcee"
 
 # Flags

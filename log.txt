@@ -1,9 +1,9 @@
-Wed Sep 22 14:37:31 2021
+Wed Sep 22 17:17:39 2021
 Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
  
 
-Bootstrap to the start of init.init took 0.12s
+Bootstrap to the start of init.init took 0.11s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
@@ -23,19 +23,19 @@ Initial gc. took 0.03s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
+Creating interface object took 0.23s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.05s
 Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
-Save screen analysis took 0.07s
+Save screen analysis took 0.08s
 Prepare screens took 0.08s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.07s
+Interface start took 0.08s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)

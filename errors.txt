@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-The label start is defined twice, at File "game/ch1.rpy", line 4:
-label start:
-and File "game/script.rpy", line 46:
-label start:
-
+File "game/ch1.rpy", line 23: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    xalign 0.5 yalign 0.6
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Wed Sep 22 11:58:16 2021
+Wed Sep 22 17:06:52 2021
