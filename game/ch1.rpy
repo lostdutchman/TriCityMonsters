@@ -35,10 +35,11 @@ label ch1:
     "The bass pounds in my guts and there's a vocalist scream-singing words I can't really understand.  There's a bigger crowd here tonight than usual and the floor is jam-packed."
     "At the front of the crowd, I can see the frenzied movements of the mosh pit and past that, the stage sits... It's maybe ten or so inches off the concrete floor and shoddily made out of plywood."
     
-    stop music fadeout 1.0
-    play music "audio/crowd.ogg" fadein 0.2 volume 0.35
-
     "The cacophany dies down after another second, the band finishing their set with a last smashing chord that vibrates through the building and sends a wave of shouts up from the jumping crowd."
+    
+    stop music fadeout 4.0
+    play music "audio/crowd.ogg" fadein 1 volume 0.35
+    
     "The band files off stage, replaced by a new group who immediately get to work adjusting equipment.  I know there's going to be a lull for a few minutes while they set up..."
     "I might as well hit up the drink table while i have the chance."
 

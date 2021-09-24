@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/ch1.rpy", line 31: end of line expected.
-    scene black with dissolve with Pause(1)
-                              ^
+File "game/ch2.rpy", line 136: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    return
+    ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Sep 24 12:23:39 2021
+Fri Sep 24 16:16:53 2021

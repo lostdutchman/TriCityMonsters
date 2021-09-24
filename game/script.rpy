@@ -9,6 +9,7 @@ define mori = Character("Mori")
 define prename = Character("", color="#FFFFFF")
 define frontman = Character ("Band Frontman", color="#f0af00")
 default povname = "Emcee"
+default ending_progress = 0
 
 # Flags
 # Make as many of these as you need to track if the MC has done a thing, or has a thing in their possesion. 
@@ -24,7 +25,7 @@ default povname = "Emcee"
 #
 # Below is how you track progress toward a specific ending
 # Negitive values bring ending toward XXXX positive values bring ending toward XXXX
-default ending_progress = 0
+#$default ending_progress = 0
 # 
 # Increment or decrement the value like this
 # $ ending_progress = ending_progress + 1
@@ -58,6 +59,8 @@ label start:
    
     call ch2
 
+    if ending_progress > 0:
+        play music "audio/muffled.ogg"
 
 
     pov "I'm [povname]."
