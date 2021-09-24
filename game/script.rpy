@@ -7,6 +7,7 @@ define pov = Character("[povname]", color="#FFFFFF")
 define morix = Character("Some Dude", color="#cf6675")
 define mori = Character("Mori")
 define prename = Character("", color="#FFFFFF")
+define frontman = Character ("Band Frontman", color="#f0af00")
 default povname = "Emcee"
 
 # Flags
@@ -42,8 +43,6 @@ label splashscreen:
 
     return
     
-# The game starts here.
-
 label start:
     stop music fadeout 1.0
     call ch1
@@ -55,11 +54,11 @@ label start:
 
     label pronoun:
 
-        call pronounselection # This calls a choice menu to select pronouns.
+        call pronounselection
    
     call ch2
 
-    
+
 
     pov "I'm [povname]."
 

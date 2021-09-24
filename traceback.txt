@@ -1,14 +1,14 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 79, in script
+  File "game/script.rpy", line 81, in script
     e "You've created a new Ren'Py game."
 Exception: Sayer 'e' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 79, in script
+  File "game/script.rpy", line 81, in script
     e "You've created a new Ren'Py game."
   File "renpy/ast.py", line 681, in execute
     who = eval_who(self.who, self.who_fast)
@@ -19,4 +19,4 @@ Exception: Sayer 'e' is not defined.
 Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
 Tri City Monsters 1.0
-Fri Sep 24 07:50:13 2021
+Fri Sep 24 12:38:28 2021
