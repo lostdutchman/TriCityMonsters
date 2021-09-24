@@ -1,8 +1,8 @@
 label nameselection:
-    $ povname = renpy.input("Please sign in:")
+    $ povname = renpy.input("Input Name:")
     $ povname = povname.strip()
 
     if not povname:
-        $povname = "Bababooie"
+        $povname = "Emcee"
 
     return

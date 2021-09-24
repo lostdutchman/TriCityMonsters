@@ -1,56 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After initialization, but before game start.
-  File "game/screens.rpy", line 243, in prepare_screen
-    screen quick_menu():
-  File "game/screens.rpy", line 243, in prepare
-    screen quick_menu():
-  File "game/screens.rpy", line 248, in prepare
-    if quick_menu:
-  File "game/screens.rpy", line 248, in prepare
-    if quick_menu:
-  File "game/screens.rpy", line 250, in prepare
-    hbox:
-  File "game/screens.rpy", line 250, in prepare
-    hbox:
-  File "game/screens.rpy", line 252, in prepare
-    text {font="fonts/Rift-Medium.otf"}{/font}
-SyntaxError: invalid syntax (screens.rpy, line 252)
+While running game code:
+  File "game/script.rpy", line 79, in script
+    e "You've created a new Ren'Py game."
+Exception: Sayer 'e' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/bootstrap.py", line 326, in bootstrap
-    renpy.main.main()
-  File "renpy/main.py", line 617, in main
-    run(restart)
-  File "renpy/main.py", line 97, in run
-    renpy.display.screen.prepare_screens()
-  File "renpy/display/screen.py", line 939, in prepare_screens
-    s.ast.prepare_screen()
-  File "game/screens.rpy", line 243, in prepare_screen
-    screen quick_menu():
-  File "game/screens.rpy", line 243, in prepare
-    screen quick_menu():
-  File "game/screens.rpy", line 248, in prepare
-    if quick_menu:
-  File "game/screens.rpy", line 248, in prepare
-    if quick_menu:
-  File "game/screens.rpy", line 250, in prepare
-    hbox:
-  File "game/screens.rpy", line 250, in prepare
-    hbox:
-  File "game/screens.rpy", line 252, in prepare
-    text {font="fonts/Rift-Medium.otf"}{/font}
-  File "renpy/pyanalysis.py", line 712, in ast_eval
-    return self.ast_eval_literal(expr)[0]
-  File "renpy/pyanalysis.py", line 696, in ast_eval_literal
-    expr = py_compile(expr, 'eval', ast_node=True)
-  File "renpy/python.py", line 835, in py_compile
-    raise e
-SyntaxError: invalid syntax (screens.rpy, line 252)
+  File "game/script.rpy", line 79, in script
+    e "You've created a new Ren'Py game."
+  File "renpy/ast.py", line 681, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "renpy/ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'e' is not defined.
 
 Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
 Tri City Monsters 1.0
-Thu Sep 23 05:23:35 2021
+Fri Sep 24 07:50:13 2021

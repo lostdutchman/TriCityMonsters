@@ -47,21 +47,25 @@ label splashscreen:
 label start:
     stop music fadeout 1.0
     call ch1
+    
+    scene bg venue
+    show mori jacket smile at center
 
     call nameselection
-
-    pov "My name is [povname]!"
 
     label pronoun:
 
         call pronounselection # This calls a choice menu to select pronouns.
    
-    hide coord wave
+    call ch2
 
-    show eileen normal
+    
 
-    e "Thanks, [povname]."
-    e "[they!t!c] go[es] and eat[s] the apple."
+    pov "I'm [povname]."
+
+   
+    mori "Thanks, [povname]."
+    mori "[they!t!c] go[es] and eat[s] the apple."
 
    
   

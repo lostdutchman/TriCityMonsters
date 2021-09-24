@@ -58,11 +58,11 @@ label ch1:
 
     morix "Can I buy you a drink?"
 
-     menu:
+    menu:
         "Yeah, actually, that sounds great.":
             jump ch1_convo1
         "Just water, please.  Thanks, man.":
-            jump ch1_conv1b
+            jump ch1_convo1b
     
     label ch1_convo1:
         "He nods and quickly grabs me my own very appetizing cup of almost-room-temperature beer."
@@ -70,13 +70,16 @@ label ch1:
         "His tone is rife with sarcarsm but at the same time, if you drink at events like this warm beer is usually the most readily available."
         "'Warm beer keeping you hydrated in the pit?'"
         morix "No, but that won't stop me.  Pitrats is only Pitrats if there's enough rats in the pit, y'know?"
+        
+        jump ch1_movingon
     
     label ch1_convo1b: 
         morix "No problem, they usually still have bottles by this time of the night."
         "He turns to the vendor and a second or two later passes me a slightly-cooler-than-room-temperature bottle of water."
         "He seems to deliberate a second before he also grabs a bottle for himself but proceeds to down it as quickly as he put away the beer."
 
-    morix "SO."
+    label ch1_movingon:
+        morix "SO."
 
     hide mori jacket hehe
 
@@ -93,12 +96,13 @@ label ch1:
 
     "I look and I can't say I recognize them.  There's a big frontman adjusting a mic while a bassist and a guitarist arrange pedals and amps.  The drumset at the back of the stage is empty."
     "'No, I don't know who they are.  Are they any good?'"
-    "He smiles broadly, his nose crinkling with the expression"
 
     hide mori jacket smile
 
-    show mori jacket grin
+    show mori jacket grin at center
     
+    "He smiles broadly, his nose crinkling with the expression"
+  
     morix "Yeah, actually they're one of my favorites right now.  Good energy."
 
     "'Seriously?'"
@@ -106,17 +110,11 @@ label ch1:
     morix "Yeah! You'll like them!  Also, their drummer is hot as fuck."
 
     "I can't help but snort a little at that."
-        
 
+    hide mori jacket grin
 
+    show mori jacket smile at center
 
-
-
-
-
-
-    
-
-
+    morix "What's your name?  I feel like I see you here a lot."
    
     return
