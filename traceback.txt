@@ -1,14 +1,14 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 71, in script
+  File "game/script.rpy", line 74, in script
     pov "I'm [povname]."
-IOError: Couldn't find file 'audio/muffled.ogg'.
+IOError: Couldn't find file 'audio/muffledpunk.ogg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 71, in script
+  File "game/script.rpy", line 74, in script
     pov "I'm [povname]."
   File "renpy/ast.py", line 716, in execute
     renpy.exports.say(who, what, *args, **kwargs)
@@ -38,9 +38,9 @@ Full traceback:
     rv = renpy.loader.load(fn)
   File "renpy/loader.py", line 798, in load
     raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'audio/muffled.ogg'.
+IOError: Couldn't find file 'audio/muffledpunk.ogg'.
 
 Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
 Tri City Monsters 1.0
-Sat Sep 25 10:17:56 2021
+Sat Sep 25 16:10:02 2021

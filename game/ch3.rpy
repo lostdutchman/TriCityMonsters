@@ -154,12 +154,4 @@ pov "Do you think we can hide up here until the coast is clear?"
 mori "Nah, it's too late for that."
 "I turn to press him for solutions- this is his fault, after all- but I can tell immediately something's not right."
 
-
-
-
-
-
-
-
-
 return

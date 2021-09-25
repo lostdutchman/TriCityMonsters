@@ -4,10 +4,11 @@
 # name of the character.
 
 define pov = Character("[povname]", color="#FFFFFF")
-define morix = Character("Some Dude", color="#cf6675")
-define mori = Character("Mori")
+define morix = Character("Some Dude", color="#5a8b90")
+define mori = Character("Mori", color="#5a8b90")
 define prename = Character("", color="#FFFFFF")
 define frontman = Character ("Band Frontman", color="#f0af00")
+define thing = Character ("THING", text_font = "fonts/Octobercrow.ttf", color="#960000")
 default povname = "Emcee"
 default ending_progress = 0
 
@@ -63,6 +64,8 @@ label start:
     call ch2
 
     call ch3
+
+    call ch4
 
     if ending_progress > 0:
         play music "audio/muffledpunk.ogg"
