@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/ch2.rpy", line 136: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    return
-    ^
+File "game/ch3.rpy", line 129: expected end of line
+    play music "audio/roof.ogg" with fadein 3.0 volume 0.25
+                                ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Fri Sep 24 16:16:53 2021
+Sat Sep 25 09:49:50 2021

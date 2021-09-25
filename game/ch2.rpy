@@ -120,9 +120,9 @@ label ch2_convo2:
     jump ch2_movingon2
     
 label ch2_convo2b:
-    "Fuck That.  I'm not waiting around to get manhandled by a bunch of overzealous cops."
+    "Fuck that.  I'm not waiting around to get manhandled by a bunch of overzealous cops."
     "I bolt."
-    "There are people everywhere, the tiny venue is suddenly extremely dangerous in its smallness.  The crowd's a full on stampede at theis point and I try my best to keep up or risk falling."
+    "There are people everywhere, the tiny venue is suddenly extremely dangerous in its smallness.  The crowd's a full on stampede at this point and I try my best to keep up or risk falling."
     show bg venue with hpunch
     play sound "audio/thump.ogg"
 

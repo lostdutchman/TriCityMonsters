@@ -65,7 +65,7 @@ label start:
     call ch3
 
     if ending_progress > 0:
-        play music "audio/muffled.ogg"
+        play music "audio/muffledpunk.ogg"
 
 
     pov "I'm [povname]."
