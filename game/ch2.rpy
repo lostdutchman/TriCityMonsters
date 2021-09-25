@@ -97,12 +97,12 @@ play music "audio/tense.ogg" fadein 1.0 volume 0.35
 menu:
     "Try to comply.":            
         jump ch2_convo2
-    "{i}RUN.{/i}.":
+    "{i}RUN{/i}.":
         $ ending_progress = ending_progress + 1
         jump ch2_convo2b
 
 label ch2_convo2:
-    "The chos inside is quickly reaching the combustion point.  I keep getting shoved as other people rush towards the exits en masse."
+    "The chaos inside is quickly reaching the combustion point.  I keep getting shoved as other people rush towards the exits en masse."
 
     show bg venue with hpunch
     play sound "audio/thump.ogg"

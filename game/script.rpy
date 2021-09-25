@@ -59,6 +59,8 @@ label start:
    
     call ch2
 
+    call ch3
+
     if ending_progress > 0:
         play music "audio/muffled.ogg"
 
