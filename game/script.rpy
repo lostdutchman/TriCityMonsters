@@ -46,6 +46,9 @@ label splashscreen:
     
 label start:
     stop music fadeout 1.0
+
+    call title
+    
     call ch1
     
     scene bg venue

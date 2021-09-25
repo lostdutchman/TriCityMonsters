@@ -3,11 +3,7 @@
 label ch1:
 
     image pitrats = "images/pitrats.png"
-
-    scene black with dissolve
-    scene bg ch1 with dissolve
-    $ renpy.pause(15)
-
+    $ quick_menu = True
     scene bg city with dissolve
     play music "audio/city.ogg" 
 
