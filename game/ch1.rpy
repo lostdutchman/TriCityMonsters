@@ -24,6 +24,7 @@ label ch1:
     "I give the bouncer my $5 cover and head down the dark, dank stairs underground."
 
     hide pitrats with dissolve
+    $ renpy.pause(1)
     play music "audio/punk.ogg" fadein 0.2 volume 0.35
     scene bg venue with fade
 

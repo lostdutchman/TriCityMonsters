@@ -116,6 +116,11 @@ label ch3_movingon:
     "I shake my head a little and keep moving while we have the chance.  I can figure him out later."
 
 scene black with dissolve
+$ renpy.pause(1)
+show bg shop with fadein
+
+"The ground floor is an empty cafe.  It's late after all but there's tons of movement and noise outside.  Beams of read and blue police lights streak across the walls."
+"He drops the hatch closed behind us and while we don't have time to waste neither of us can really help ourselves from covertly watching for a second as the flood of punks escaping Pitrats cause a ruckus."
 
 
 return
