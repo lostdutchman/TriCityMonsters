@@ -69,7 +69,53 @@ show mori smile
 
 mori "Keep climbing to the roof, they'll be swarming the streets."
 pov "What about your bandmates?  They were headed towards the main entrance!"
-mori ""
+mori "They'll be fine, this isn't the first run in they've had.  Besides, they're after-"
+
+show bg venue with vpunch
+play sound "audio/thump.ogg"
+
+hide mori smile
+show mori srs
+
+pov "Mori!"
+"He nearly falls as he's jerked violently downwards.  There's a cop halfway up the ladder, yanking on his leg wtih the full intent of tearing him right off it."
+"Without even pausing to consider whether it was a remotely good idea or not, Mori wrenches his leg back and kicks down, {i}hard{/i}, catching the cop in the side of the head and pulling all the way free."
+mori "Let's go, we gotta hurry."
+pov "Are you {i}trying{/i} to get charged with assaulting an officer?  They're gonna throw the book at you if they catch you."
+
+hide mori srs
+show mori chaos
+
+mori "You think hitting a cop is the worst thing they want me for?"
+
+menu:
+    "Okay, that's not creepy and mildly threatening at all.":
+        jump ch3_convo1
+    "What did you do {i}tonight{/i} that warrants this!?.":
+         jump ch3_convo1b
+
+label ch3_convo1:        
+    
+    hide mori chaos
+    show mori grin
+
+    mori "Sorry, I'm well meaning.  I promise."
+    "We definitely don't have time to argue, but I do manage to shoot him a withering glare."    
+    jump ch3_movingon
+
+label ch3_convo1b:
+    
+    hide mori chaos
+    show mori smile
+
+    mori "Tonight?  Nothing!"
+    "He flashes me a smirk that I find grudgingly disarming.  Mori's apparent comfort with chaos makes him... a little rougish and while I definitely don't trust him yet, he doesn't really seem all that dangerous."
+   
+label ch3_movingon:
+    "And then I'm climbing again, trying to get up to the ground floor before the cops can make a more concerted effort to pull Mori down into the mass of people below."
+    "I shake my head a little and keep moving while we have the chance.  I can figure him out later."
+
+scene black with dissolve
 
 
 return
