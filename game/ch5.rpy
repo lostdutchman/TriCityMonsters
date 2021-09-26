@@ -110,7 +110,7 @@ play sound "audio/thud.ogg"
 "His arm is rock solid around my body, clawed digits tracking into my clothes."
 "The relief flooding me right then is indescribable, I can't believe he caught me-"
 
-play sound "audio/thudd.ogg"
+#play sound "audio/thud.ogg"
 show bg alley with hpunch
 
 "Something impacts us from the side hard enough to smash Mori into the far wall.  I can feel him shift so he hits the wall back-first, keeping me from splattering across the surface."

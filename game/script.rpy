@@ -69,6 +69,8 @@ label start:
 
     call ch5
 
+    call ch6
+
     if ending_progress > 0:
         play music "audio/muffledpunk.ogg"
 
