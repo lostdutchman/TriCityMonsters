@@ -171,7 +171,7 @@ label ch4_convo1:
 
 label ch4_convo1b:
     
-    mori "Relax, it's not mine."
+    mori "[povname], relax it's not mine."
     
     "That does {i}not{/i} make me relax at all."
 
@@ -216,13 +216,4 @@ label ch4_movingon2:
     "He wipes his gross hand on his pantleg and offers to help me stand."
     "I VERY RELUCTANTLY take it and hope that my Extremely Stern Glare is enough to warn him that I refuse to take diversion once we've satisified his need to get somewhere safer."
     
-
-
-
-
-
-
-
-
-
 return
