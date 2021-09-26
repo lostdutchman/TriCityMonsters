@@ -14,4 +14,4 @@ For more from us:
 * [Twitter @SoftDutch](https://twitter.com/SoftDutch)
 * [Youtube](https://www.youtube.com/channel/UC0DOBzJirr9YCc0CMP7X32g)
 
-Copyright Lostdutchman Software 2021
+Copyright Lost Dutchman Software 2021
