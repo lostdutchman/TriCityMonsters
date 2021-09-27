@@ -71,6 +71,8 @@ label start:
 
     call ch6
 
+    call consentscene
+
     if ending_progress > 0:
         play music "audio/muffledpunk.ogg"
 
