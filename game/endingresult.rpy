@@ -57,6 +57,7 @@ label monster:
     "I'm surprised when he bypasses my mouth and goes straight for my neck, gently scraping teeth along the exposed flesh there."  
     "It makes me weak but then the accompanying hungry growl that reverberates up his throat makes my fingers curl tightly against his furry body."
     "Without direction he slots a thick thigh between mine and already the heat is stifling and I'm gasping under him."
+    "If nothing else, at least insomnia meant that tonight I'd meet a fun, if reckless and charmingly cocky, monster."
 
     show bg black with fade (3.0)
     
@@ -69,5 +70,10 @@ label human:
     "His hands smooth down my sides while he slowly backs me into the low wall, confident mouth kissing me almost numb..."
     "When he shifts lower to suck at the juncture of my jaw and throat I gasp raggedly in surprise then flush a little at the reaction."
     "I can feel his stupid lips curl wtih smug satisfaction but, thank god, he opts to simply continue instead of draw further attention to his success in riling me up."
+    pov "Is this how you treat all your groupies?"
+    "I really can't help but give in to the desire to banter, he's just so {i}smug{/i} for being a scuzzy punk.  He, of course, only chuckles at the comment."
+    mori "You think I'm good enough to get groupies?"
+    pov "Nevermind."
+    
 
 return
