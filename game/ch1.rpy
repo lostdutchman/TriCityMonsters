@@ -115,5 +115,14 @@ label ch1:
     show mori jacket smile at center
 
     morix "What's your name?  I feel like I see you here a lot."
+
+    scene bg venue
+    show mori jacket smile at center
+
+    call nameselection
+
+    label pronoun:
+
+        call pronounselection
    
     return

@@ -154,7 +154,8 @@ mori "And maybe don't watch."
 
 hide moricg1 with dissolve
 show bg black
-
+ 
+#################MF CHOICE 5
 menu:
     "{i}Watch Mori fight.{/i}":
         $ ending_progress = ending_progress + 1

@@ -49,7 +49,7 @@ label ch2:
     "By the time the frontman takes his cue the whole band is absolutely shredding... with Mori at the back beating the absolute shit out of the drums."
     "He's not just fast, though.  He's {i}good{/i}."
 
-############ MF Choice
+############ MF Choice 1
 menu:
     "Get a closer look.":
         $ ending_progress = ending_progress + 1

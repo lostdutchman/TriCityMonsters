@@ -19,7 +19,7 @@ mori "What d'ya think?"
 
 menu: 
     "{i}Make out with Mori{/i}":
-        jump endingresult
+        call endingresult
     "Sorry dude, I'll pass tonight.":
         jump epilogue
 

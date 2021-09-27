@@ -51,16 +51,7 @@ label start:
     call title
     
     call ch1
-    
-    scene bg venue
-    show mori jacket smile at center
-
-    call nameselection
-
-    label pronoun:
-
-        call pronounselection
-   
+      
     call ch2
 
     call ch3
@@ -73,29 +64,6 @@ label start:
 
     call consentscene
 
-    if ending_progress > 0:
-        play music "audio/muffledpunk.ogg"
-
-   
-    mori "Thanks, [povname]."
-    mori "[they!t!c] go[es] and eat[s] the apple."
-
-   
-  
-    scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
+    call credits 
 
     return
