@@ -10,16 +10,20 @@ define prename = Character("", color="#FFFFFF")
 define frontman = Character ("Band Frontman", color="#f0af00")
 define thing = Character ("THING", what_font="fonts/Octobercrow.ttf", color="#960000")
 default povname = "Emcee"
+
+image splash = "splash.png"
+
 default ending_progress = 0
+default same_name_flag = False
 
 # Flags
 # Make as many of these as you need to track if the MC has done a thing, or has a thing in their possesion. 
-# Initialize them all as false
+# Initialize them all as False (its case sensitive)
 #
-#default book = false
+#default book = False
 #
 # When the MC picks up the book you would use
-# $ book = true
+# $ book = True
 #
 # When the book is needed you can use an if statement
 #if book:
@@ -31,7 +35,7 @@ default ending_progress = 0
 # Increment or decrement the value like this
 # $ ending_progress = ending_progress + 1
 
-image splash = "splash.png"
+
 
 label splashscreen:
     scene black

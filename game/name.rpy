@@ -3,6 +3,12 @@ label nameselection:
     $ povname = povname.strip()
 
     if not povname:
-        $povname = "Emcee"
+        $ povname = "Emcee"
+
+    python:
+        if povname.lower() == "mori":
+            same_name_flag = True
+        else: 
+            same_name_flag = False
 
     return

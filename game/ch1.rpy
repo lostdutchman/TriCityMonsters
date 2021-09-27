@@ -38,7 +38,7 @@ label ch1:
     play music "audio/crowd.ogg" fadein 1 volume 0.35
     
     "The band files off stage, replaced by a new group who immediately get to work adjusting equipment.  I know there's going to be a lull for a few minutes while they set up..."
-    "I might as well hit up the drink table while i have the chance."
+    "I might as well hit up the drink table while I have the chance."
 
     show mori jacket drunk with moveinright
 
@@ -124,5 +124,5 @@ label ch1:
     label pronoun:
 
         call pronounselection
-   
+
     return

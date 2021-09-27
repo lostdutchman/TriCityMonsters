@@ -1,50 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 70, in script call
-    call ch5
-  File "game/ch5.rpy", line 109, in script
-    "The catch isn't gentle and the wind gets knocked out of me as I impact his solid, overwarm body."
-IOError: Couldn't find file 'audio/thud.ogg'.
+  File "game/script.rpy", line 57, in script call
+    call ch1
+  File "game/ch1.rpy", line 128, in script
+    if samename:
+  File "game/ch1.rpy", line 128, in <module>
+    if samename:
+NameError: name 'samename' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 70, in script call
-    call ch5
-  File "game/ch5.rpy", line 109, in script
-    "The catch isn't gentle and the wind gets knocked out of me as I impact his solid, overwarm body."
-  File "renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 875, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3979, in interact_core
-    renpy.audio.audio.periodic()
-  File "renpy/audio/audio.py", line 1138, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "renpy/audio/audio.py", line 1116, in periodic_thread_main
-    periodic_pass()
-  File "renpy/audio/audio.py", line 1058, in periodic_pass
-    c.periodic()
-  File "renpy/audio/audio.py", line 512, in periodic
-    topf = load(filename)
-  File "renpy/audio/audio.py", line 69, in load
-    rv = renpy.loader.load(fn)
-  File "renpy/loader.py", line 798, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'audio/thud.ogg'.
+  File "game/script.rpy", line 57, in script call
+    call ch1
+  File "game/ch1.rpy", line 128, in script
+    if samename:
+  File "renpy/ast.py", line 1893, in execute
+    if renpy.python.py_eval(condition):
+  File "renpy/python.py", line 2266, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "renpy/python.py", line 2259, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/ch1.rpy", line 128, in <module>
+    if samename:
+NameError: name 'samename' is not defined
 
-Windows-7-6.1.7601-SP1
+Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 Tri City Monsters 1.0
-Sun Sep 26 12:51:24 2021
+Mon Sep 27 08:56:45 2021

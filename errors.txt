@@ -2,13 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/ch4.rpy", line 199: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation.
-    jump ch4_convo2b
-    ^
+File "game/name.rpy", line 8: reached end of line when expecting ':'.
+    if povname == "mori"
+                        ^
 
-File "game/ch4.rpy", line 206: expected statement.
-    labele ch4_convo2b:
-                      ^
+File "game/name.rpy", line 10: expected statement.
+    else 
+         ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Sep 25 15:41:23 2021
+Mon Sep 27 08:50:44 2021
