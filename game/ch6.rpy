@@ -65,7 +65,7 @@ label ch6_convo2:
     jump ch6_movingon
 
 label ch6_convo2b:
-    mori "For myself?  Not so much.  Dragging normies into this though...  It's a bitter taste."
+    mori "For myself?  Not so much.  Dragging normies into this, though...  That's different."
 
 label ch6_movingon2:
     "He struggles to find the words for a good long minute, staring at the city open before him and still standing on the ledge while I lean against it, feet firmly on solid ground."
@@ -106,7 +106,7 @@ mori "Which is what this is."
 "The blue fire's back and the little orbs hover lazily around Mori's body.  Their glow is admittedly beautiful but it's cold and no warmth eminates from them."
 pov "What do they say?"
 "Mori watches their lazy movements for a few seconds before he moves to sit on the brick wall, crossing one leg under him."
-mori "Nothing much, really.  Sometimes premonitions, sometimes warnings.  They're not as rooted in reality as most living things are."
+mori "Nothing much, really.  Sometimes premonitions, sometimes warnings.  They're not as rooted in reality as we are."
 
 hide mori spirits srs with dissolve
 show mori shirt srs with dissolve
