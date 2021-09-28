@@ -67,7 +67,7 @@ label ch1:
         "He nods and quickly grabs me my own very appetizing cup of almost-room-temperature beer."
         morix "That's the good shit, right?"
         "His tone is rife with sarcarsm but at the same time, if you drink at events like this room temperature, flat beer is usually the most readily available."
-        "'Warm beer keeping you hydrated in the pit?'"
+        prename "Warm beer keeping you hydrated in the pit?"
         morix "No, but that won't stop me.  Pitrats is only Pitrats if there's enough rats in the pit, y'know?"
         
         jump ch1_movingon
@@ -89,12 +89,12 @@ label ch1:
     "He turns to look at me fully, crossing his heavily tattooed arms in front of his chest.  I can see he's a bit more muscular than he looks from further away but I do my best not to get caught staring like a dumbass."
     "Still, his tattoos are very intricate and vibrant, disappearing under his jacket- though there's a few wisps of ink at his torn collar, hinting to more going on under his shirt."
     "He's watching me with some interest however, so I busy myself with my drink and nod faintly."
-    "'Yeah... I get restless and like to burn off energy here.  It's cheap entertainment and I get to listen to some pretty badass bands.'"
+    prename "Yeah... I get restless and like to burn off energy here.  It's cheap entertainment and I get to listen to some pretty badass bands."
 
     morix "Yeah?  Have you seen these guys setting up right now?"
 
     "I look and I can't say I recognize them.  There's a big frontman adjusting a mic while a bassist and a guitarist arrange pedals and amps.  The drumset at the back of the stage is empty."
-    "'No, I don't know who they are.  Are they any good?'"
+    prename "No, I don't know who they are.  Are they any good?"
 
     hide mori jacket smile
 
@@ -104,7 +104,7 @@ label ch1:
   
     morix "Yeah, actually they're one of my favorites right now.  Good energy."
 
-    "'Seriously?'"
+    prename "Seriously?"
 
     morix "Yeah! You'll like them!  Also, their drummer is hot as fuck."
 

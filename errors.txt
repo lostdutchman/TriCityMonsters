@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 252: u'font' is not a keyword argument or valid child for the hbox statement.
-    font "fonts/Rift-Bold.otf"
-        ^
+File "game/ch1.rpy", line 11: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a ' at the end of the first line.)
+        ""So.  The {i}city{/i}.  Sure, it has its problems.  Lots of them.  But one of the benefits is that there's stuff to do even late at night.""
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Mon Sep 27 20:36:48 2021
+Tue Sep 28 10:46:42 2021
