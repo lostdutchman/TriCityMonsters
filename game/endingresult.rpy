@@ -74,6 +74,7 @@ label human:
     "I really can't help but give in to the desire to banter, he's just so {i}smug{/i} for being a scuzzy punk.  He, of course, only chuckles at the comment."
     mori "You think I'm good enough to get groupies?"
     pov "Nevermind."
-    
+    "He flashes me a smirk that really just tells me he loves the attention and is fully prepared to shamelessly bask in it."
+
 
 return

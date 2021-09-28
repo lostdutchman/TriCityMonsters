@@ -1,32 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 57, in script call
-    call ch1
-  File "game/ch1.rpy", line 128, in script
-    if samename:
-  File "game/ch1.rpy", line 128, in <module>
-    if samename:
-NameError: name 'samename' is not defined
+  File "game/script.rpy", line 69, in script call
+    call consentscene
+  File "game/consentscene.rpy", line 22, in script call
+    call endingresult
+  File "game/endingresult.rpy", line 62, in script
+    show bg black with fade (3.0)
+TypeError: 'MultipleTransition' object is not callable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 57, in script call
-    call ch1
-  File "game/ch1.rpy", line 128, in script
-    if samename:
-  File "renpy/ast.py", line 1893, in execute
-    if renpy.python.py_eval(condition):
-  File "renpy/python.py", line 2266, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "renpy/python.py", line 2259, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/ch1.rpy", line 128, in <module>
-    if samename:
-NameError: name 'samename' is not defined
+  File "game/script.rpy", line 69, in script call
+    call consentscene
+  File "game/consentscene.rpy", line 22, in script call
+    call endingresult
+  File "game/endingresult.rpy", line 62, in script
+    show bg black with fade (3.0)
+  File "renpy/ast.py", line 1438, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "renpy/exports.py", line 1682, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "renpy/display/core.py", line 2718, in do_with
+    clear=clear)
+  File "renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3633, in interact_core
+    new_widget=layers_root)
+TypeError: 'MultipleTransition' object is not callable
 
-Windows-10-10.0.19041
+Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
 Tri City Monsters 1.0
-Mon Sep 27 08:56:45 2021
+Mon Sep 27 19:04:22 2021

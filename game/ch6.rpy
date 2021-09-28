@@ -3,7 +3,7 @@
 label ch6:
 
 show bg apartment with dissolve
-show mori shirt neu moveinright
+show mori shirt neu with moveinright
 
 "The walk to Mori's apartment is only a few blocks and we hurriedly leave the area before any more cops/demons can get in our way."
 "Like before, he seems alert but not stressed, passively scanning the alleys as we pass but his posture remains relaxed and fluid, for the most part."
@@ -62,7 +62,7 @@ menu:
 label ch6_convo2:
     mori "Fine."
     "He takes a deep breath and runs a hand through his messy hair, obviously trying to gather himself for an explanation."
-    jump ch6_movingon
+    jump ch6_movingon2
 
 label ch6_convo2b:
     mori "For myself?  Not so much.  Dragging normies into this, though...  That's different."

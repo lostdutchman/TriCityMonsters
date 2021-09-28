@@ -104,7 +104,7 @@ pov "What the {i}fuck{/i}...?"
 "Hot on its twin, thick tails, several skittering awful shapes of demons come charging down behind him, tearing up concrete and denting a metal awning with a loud squeal of protest."
 "With incredible dexterity (and ignoring the things gaining on him), Mori leaps crosswise across the alley and intercepts my fall."
 
-play sound "audio/thud.ogg"
+#play sound "audio/thud.ogg"
 
 "The catch isn't gentle and the wind gets knocked out of me as I impact his solid, overwarm body."
 "His arm is rock solid around my body, clawed digits tracking into my clothes."
@@ -184,10 +184,10 @@ label ch5_convo21b:
     "The noises I'm hearing are grotesque.  Wet and liquidy and punctuated by various pops and dry, splintering cracks."
     "There's a flash against my closed eyelids and the momentary intesnifying smell of sulfur, before it fades entirely, tells me Mori's done."
 
-label ch5_movingon1:
+label ch5_movingon:
     show mori shirt neu
     "Mori looks at me somewhat guiltily.  I'm glad to see his human face again though."
-    Mori "I'm uh... sure you have questions.  My apartment's near here, it'll be safe in case more of those bastards show up."
+    mori "I'm uh... sure you have questions.  My apartment's near here, it'll be safe in case more of those bastards show up."
 
 hide mori shirt neu
 show mori shirt smile
@@ -200,7 +200,8 @@ menu:
 
 label ch5_convo2:
     mori "Okay, okay, I did promise"
-    "Without any further needling, he helps me to my feet and we- thankfully stick to the street level."
+    "Without any further needling, he helps me to my feet and we- thankfully- stick to the street level."
+    jump ch5_movingon2
 
 label ch5_convo2b:
     pov "Pull someone out of a demon cop raid, show them your Furry form and then invite them to your place?"
@@ -210,6 +211,9 @@ label ch5_convo2b:
     show mori shirt hehe
     mori "Is it working?"
     pov "{i}No!{/i}"
+
+label ch5_movingon2:
+    "I'm actually scared witless and monster or not, I'm very glad Mori's with me.  He's capable, if nothing else, though his careless nature and willingness to help are definitely ingratiating him to me."
 
 return
 
