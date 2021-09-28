@@ -230,6 +230,8 @@ style choice_vbox:
 
 style choice_button is default:
     properties gui.button_properties("choice_button")
+    hover_sound "audio/rollover.ogg"
+    activate_sound "audio/choice.ogg"
 
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
