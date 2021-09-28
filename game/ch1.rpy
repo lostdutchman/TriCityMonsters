@@ -5,7 +5,7 @@ label ch1:
     image pitrats = "images/pitrats.png"
     $ quick_menu = True
     scene bg city with dissolve
-    play music "audio/city.ogg" 
+    play music "audio/city.ogg" fadein 2.0
 
 
     "So.  The {i}city{/i}.  Sure, it has its problems.  Lots of them.  But one of the benefits is that there's stuff to do even late at night."
@@ -15,7 +15,7 @@ label ch1:
     
     scene bg alley with dissolve
     stop music fadeout 1.0
-    play music "audio/punkmuffled.ogg" fadein 1.0 volume 0.25
+    play music "audio/punkmuffled.ogg" fadein 1.0 volume 0.35
     show pitrats at Position(xpos=0.7, ypos=0.6)
     with dissolve
 
@@ -24,8 +24,8 @@ label ch1:
     "I give the bouncer my $5 cover and head down the dark, dank stairs underground."
 
     hide pitrats with dissolve
-    $ renpy.pause(1)
-    play music "audio/punk.ogg" fadein 0.2 volume 0.35
+    stop music fadeout 1.0
+    play music "audio/punk.ogg" fadein 2.0 volume 0.50
     scene bg venue with fade
 
     "Inside, it smells like cheap cigarettes and stale beer.  Among other things.  But the energy hits me before I've even fully entered the larger basement room a the bottom of the steps."
@@ -35,7 +35,7 @@ label ch1:
     "The cacophany dies down after another second, the band finishing their set with a last smashing chord that vibrates through the building and sends a wave of shouts up from the jumping crowd."
     
     stop music fadeout 4.0
-    play music "audio/crowd.ogg" fadein 1 volume 0.35
+    play music "audio/crowd.ogg" fadein 1 volume 0.75
     
     "The band files off stage, replaced by a new group who immediately get to work adjusting equipment.  I know there's going to be a lull for a few minutes while they set up..."
     "I might as well hit up the drink table while I have the chance."
@@ -50,8 +50,7 @@ label ch1:
     morix "Oh, my bad.  Did I cut in front of you?"
 
     hide mori jacket drunk
-
-    show mori jacket hehe at center
+    show mori jacket srs at center
 
     "He smiles and it's actually relatively earnest-looking.  He might be oblivious but he doesn't seem like an asshole."
 

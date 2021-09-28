@@ -278,6 +278,7 @@ style quick_button:
 
 style quick_button_text:
     properties gui.button_text_properties("quick_button")
+    font "fonts/Rift-Bold.otf"
 
 
 ################################################################################

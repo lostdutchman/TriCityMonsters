@@ -62,33 +62,33 @@ mori "Breathe.  You'll pass out."
 "{i}Damn{/i}, his voice is jarringly calm... even if he doesn't turn his eyes away from the horror or uncoil."
 "The thing takes a deep breath and then..."
 
-thing "You're a cocky little shit."
+thing "You are a cocky little shit."
 
 pov "Holy shit it talked-!"
 
 mori "Quiet!"
 
-thing "Pay attention to what's in front of you, boy."
-thing "Don't expect me to let you walk away after making me chase you."
+thing "Pay attention to what is in front of you."
+thing "Dont expect me to let you walk away after making me chase you."
 
 mori "Get fucked."
 mori "You turn this into a fight and you won't walk off what I do to you."
 
-thing "You owe a debt!"
-thing "You signed a contract!"
-thing "You have not delivered!!"
+thing "You owe a debt"
+thing "You signed a contract"
+thing "You have not delivered"
 
 "The thing's melting, dripping face angles for a second and it makes a noise like a huge dog sniffing tentatively."
 "It shifts slightly and- recognizable facial features or no- I can tell it's staring at me."
 "Honestly, I have no idea how I keep from fainting on the spot.  My heart feels like it's about to explode."
 
-thing "Unless that's supposed to be your idea of payment."
+thing "Unless thats supposed to be your idea of payment."
 mori "[they!t!c] [are!t] absolutely not.  So fuck off."
 
 thing "Your mortal audacity always entertains."
-thing "But I'm not going back empty handed today."
-thing "[they!t!c!] [are!t] a paltry offering after two years, meatsack."
-thing "Get your priorities straight, Contractbound.  You're not hard to find and not even Hell will wait forever."
+thing "But I am not going back empty handed today."
+thing "[they!t!c!] [are!t] a paltry offering after two years Meatsack."
+thing "Get your priorities straight Contractbound.  Youre not hard to find and not even Hell will wait forever."
 
 "And then that sick nauseating terror locked in my throat intensifies and I finally do let out that scream."
 
