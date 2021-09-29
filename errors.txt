@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/ch1.rpy", line 11: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a ' at the end of the first line.)
-        ""So.  The {i}city{/i}.  Sure, it has its problems.  Lots of them.  But one of the benefits is that there's stuff to do even late at night.""
+File "game/screens.rpy", line 604: use statement expects a non-empty block.
+    use game_menu(_("Credits"), scroll="viewport"):
+                                                   ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Tue Sep 28 10:46:42 2021
+Wed Sep 29 14:17:20 2021

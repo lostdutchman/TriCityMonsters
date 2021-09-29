@@ -1,36 +1,52 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 69, in script call
-    call consentscene
-  File "game/consentscene.rpy", line 22, in script call
-    call endingresult
-  File "game/endingresult.rpy", line 62, in script
-    show bg black with fade (3.0)
-TypeError: 'MultipleTransition' object is not callable
+  File "renpy/common/00action_menu.rpy", line 107, in __call__
+    raise Exception("%r is not a screen or a label." % orig_screen)
+Exception: u'credits' is not a screen or a label.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 69, in script call
-    call consentscene
-  File "game/consentscene.rpy", line 22, in script call
-    call endingresult
-  File "game/endingresult.rpy", line 62, in script
-    show bg black with fade (3.0)
-  File "renpy/ast.py", line 1438, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "renpy/exports.py", line 1682, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "renpy/display/core.py", line 2718, in do_with
-    clear=clear)
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "renpy/display/core.py", line 3276, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3633, in interact_core
-    new_widget=layers_root)
-TypeError: 'MultipleTransition' object is not callable
+  File "renpy/display/core.py", line 4110, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/screen.py", line 720, in event
+    rv = self.child.event(ev, x, y, st)
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1090, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/behavior.py", line 979, in event
+    return handle_click(self.clicked)
+  File "renpy/display/behavior.py", line 914, in handle_click
+    rv = run(action)
+  File "renpy/display/behavior.py", line 329, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00action_menu.rpy", line 107, in __call__
+    raise Exception("%r is not a screen or a label." % orig_screen)
+Exception: u'credits' is not a screen or a label.
 
 Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
 Tri City Monsters 1.0
-Mon Sep 27 19:04:22 2021
+Wed Sep 29 14:32:51 2021
