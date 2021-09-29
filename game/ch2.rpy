@@ -1,5 +1,3 @@
-# The game starts here.
-
 label ch2:
 
     scene bg venue
@@ -83,15 +81,14 @@ show bg venue with hpunch
 play sound "audio/thump.ogg"
 
 "There's out-of-place movement behind me.  For a wild second, I wonder if a second mosh pit's broken out back there but when I turn around, what I see instead makes my guts lurch."
-    
-stop music
 
-"Cops are coming down the rickety steps with flashlights and they're shouting for everyone to stop what they're doing.  It takes a few seconds for the crowd to register the interruption but I watch the wave of realization happen in real time."
-    
-play music "audio/tense.ogg" fadein 1.0 volume 0.35
-    
-"Four or five officers move in and my first instinct is that this is some kind of drug bust.  The sight of them inspires panic though, and the people on the floor are now frantically surging around the cops and towards teh very narrow stairs."
-"Over all the panic, shouts ring out ordering the fleeing punks to get up against the walls."
+play music "audio/tense.ogg" fadeout 2.0 fadein 1.0 volume 0.65
+
+"Cops are coming down the rickety steps with flashlights and they're shouting for everyone to stop what they're doing."  
+"It takes a few seconds for the crowd to register the interruption but I watch the wave of realization happen in real time."
+"Four or five officers move in and my first instinct is that this is some kind of drug bust."   
+"The sight of them inspires panic though, and the people on the floor are now frantically surging around the cops and towards the very narrow stairs."
+"Over the sudden chaos, shouts ring out ordering the fleeing punks to get up against the walls."
 
 ############ MF Choice 2
 menu:
@@ -102,20 +99,20 @@ menu:
         jump ch2_convo2b
 
 label ch2_convo2:
-    "The chaos inside is quickly reaching the combustion point.  I keep getting shoved as other people rush towards the exits en masse."
+    "The pandemonium inside is quickly reaching the combustion point.  I keep getting shoved as other people rush towards the exits en masse."
 
     show bg venue with hpunch
     play sound "audio/thump.ogg"
 
-
-    "The cops are getting aggressive quickly- most people aren't listening and they can't controle the horde of bodies at all.  I'm certain there mus be more cops outside too and I wonder if they're having more luck coralling people."
-    "The alleys above are tight and dark, a few well placed cop cars would severely hinder those trying to escape into the night."
+    "The cops are getting aggressive quickly- most people aren't listening and they can't control the horde of bodies at all."  
+    "I'm certain there must be more cops outside too and I wonder if they're having more luck coralling people."
+    "I know the alleys at street level are tight and dark... a few well placed cop cars would definitely hinder those trying to escape."
 
     show bg venue with hpunch
     play sound "audio/thump.ogg"
 
-
-    "Someone shoves me {i}hard{/i} and I risk falling if I try to shove my way back into the current again... Given the level of panic, I could easily be trampled even if I'm trying to stay with my back to the wall as much as I can."
+    "Someone shoves me {i}hard{/i} and I risk falling if I try to shove my way back into the current again..." 
+    "Given the level of panic, I could easily be trampled even if I'm trying to stay with my back to the wall as much as I can."
 
     jump ch2_movingon2
     
@@ -123,13 +120,14 @@ label ch2_convo2b:
     "Fuck that.  I'm not waiting around to get manhandled by a bunch of overzealous cops."
     "I bolt."
     "There are people everywhere, the tiny venue is suddenly extremely dangerous in its smallness.  The crowd's a full on stampede at this point and I try my best to keep up or risk falling."
+   
     show bg venue with hpunch
     play sound "audio/thump.ogg"
 
     "Something hits me hard in the lower back and I can feel myself start to overbalance."
 
 label ch2_movingon2:
-    "Shit, I know this is going to hurt-"
+    "Shit, I know this is going to hurt-!"
 
 show mori jacket srs with moveinleft
 

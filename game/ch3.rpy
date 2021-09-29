@@ -1,5 +1,3 @@
-# The game starts here.
-
 label ch3:
 
 hide mori jacket srs
@@ -9,7 +7,7 @@ show mori jacket smile
 "It's sweaty..."
 "Not the most pleasant thing in the world, honestly, but I can't deny that I do feel a lot better with someone looking out for me."
 "Ahead of him I can make out the tall, thick figure of the vocalist and the rest of the band, moving with purpose towards the exit."
-"... and then I realize something."
+"...and then I realize something."
 "The cops are almost entirely focused on getting people out of the way so they can get to the band."
 
 hide mori jacket smile
@@ -22,11 +20,11 @@ mori "Stay with me, you go down in a crowd like this you'll get hurt!"
 mori "Just like Black Friday CCTV footage!"
 
 "He nimbly sidesteps to the right, avoiding a {i}very{/i} aggravated looking officer by only a scant few inches, hauling me along like I weigh nothing."
-"Mori cackles loudly, looking- impossibly- delighted and 99 percent unconcerned with the situation at large."
+"Mori cackles loudly, looking- impossibly- delighted and ninety-nine percent unconcerned with the situation at large."
 "But he's caught up in the momentary victory... and doesn't see the next cop lunging at us from the side."
 
 pov "Watch out!"
-"I pull back suddenly, reaffirming my grip on his hand, and yank his arm to keep him from charging directly into them."
+"I reaffirm my grip on his hand, and yank back suddenly to keep him from charging directly into them."
 
 hide mori jacket chaos
 show mori jacket grin
@@ -34,8 +32,9 @@ show mori jacket grin
 mori "hehehh"
 mori "Thanks!  I didn't even see him!"
 
-"He spares a second to smirk widely at me.  He's actually, {i}really{/i} enjoying this, isn't he?"
-"The cop recovers and makes to lunge again but Mori- without an iota of hesitation- shoulder checks him roughly and lets out another loud crow of laughter even as the cop sags, winded and bruised."
+"He spares a second to smirk widely at me.  Is he really enjoying this that much?"
+"The cop recovers and makes to lunge again but Mori- without an iota of hesitation- shoulder checks him roughly and lets out another loud crow of laughter." 
+"The cop sags momentarily, winded and bruised..."
 "Okay, no, this really is fun for him."
 
 pov "They're gonna toss you straight in jail when they catch you!"
@@ -53,11 +52,11 @@ mori "Up. Hurry."
 
 hide mori jacket jacket grin with dissolve
 
-"Obliging, I launch up as quick as I can.  The metal warps slightly beneath me, especially once Mori climbs up beneathe me.  I reach the hatch without issue and yank on the ancient, grime-coated release lever."
-"But it won't budge."
-"The scene below is still utter chaos and I can feel panicked sweat start to break out on my forehead as several furious cops point out our location to more fighting their way down from the alley entrance."
-"I yank as hard as I can, I can feel the latch digging painfully deep into the meat of my palm...!"
-"But it won't move."
+"Obliging, I launch up as quick as I can.  The metal warps slightly beneath me, especially once Mori climbs up beneathe me."  
+"I reach the hatch without issue and yank on the ancient, grime-coated release lever, but it won't budge."
+"The scene below is still utter chaos and I can feel panicked sweat start to break out on my forehead..."
+"In the crowd, several furious cops point out our location to more fighting their way down from the alley entrance."
+"Starting to feel frantic, I yank as hard as I can. I can feel the latch digging painfully deep into the meat of my palm as I pull...  But it won't move."
 
 show mori jacket srs with moveinbottom
 
@@ -79,7 +78,8 @@ show mori jacket srs
 
 pov "Mori!"
 "He nearly falls as he's jerked violently downwards.  There's a cop halfway up the ladder, yanking on his leg with the full intent of tearing him right off it."
-"Without even pausing to consider whether it was a remotely good idea or not, Mori wrenches his leg back and kicks down, {i}hard{/i}, catching the cop in the side of the head and pulling all the way free."
+"Without even pausing to consider whether it was a remotely good idea or not, Mori wrenches his leg back and kicks down, {i}hard{/i}." 
+"His foot catches the cop in the side of the head and Mori pulls all the way free in the next second."
 mori "Let's go, we gotta hurry."
 pov "Are you {i}trying{/i} to get charged with assaulting an officer?  They're gonna throw the book at you if they catch you."
 
@@ -120,18 +120,18 @@ $ renpy.pause(1)
 show bg shop with fade
 
 "The ground floor is an empty cafe.  It's late after all but there's tons of movement and noise outside.  Beams of red and blue police lights streak across the walls."
-"He drops the hatch closed behind us and while we don't have time to waste neither of us can really help ourselves from covertly watching for a second as the flood of punks escaping Pitrats cause a ruckus."
-"We keep moving upwards.  Another hatch leading to the second level and, again, he forces it open for me.  Which is frankly pretty impressive because those handles feel like they've never been opened before and Mori isn't particularly bulked up."
-"He drops each one closed behind us and after the fourth or fifth one, the series of drab, dark ceilings opens up to a clouded night sky."
+"He drops the hatch closed behind us and while we don't have time to waste neither of us can really help ourselves from covertly watching for a second."
+"A flood of punks escaping coming up the stairs from Pitrats are yelling, jumping over cop cars, and generally causing a huge ruckus."
+"After a second, we resume our move upwards.  There's another hatch leading to the second level and, again, he forces it open for me.  Which is frankly pretty impressive, honestly." 
+"Those handles feel like they've never been opened before and Mori isn't particularly bulked up."
 
 show bg roof with fade
-stop music fadeout 1.0
-play music "audio/roof.ogg" fadein 3.0 volume 0.25
+play music "audio/roof.ogg" fadeout 1.0 fadein 0.5
 
-"While the fresh air is a relief on my sweaty skin and general nervousness, my brain is assaulting me wiht the image of us trapped on the roof and surrounded by angry cops."
+"He drops each one closed behind us and after the fourth or fifth one, the series of drab, dark ceilings opens up to a clouded night sky."
+"While the fresh air is a relief on my sweaty skin and general nervousness, my brain is assaulting me with the image of us trapped on the roof and surrounded by angry cops."
 "As Mori deftly pulls himself up behind me, I can see he looks casually alert but not really stressed, even as he moves to close the hatch."
 "His comfortable confidence is mildly infectious, I suppose, but it also really makes this seem like some kind of game to him."
-
 
 #################  MF choice 3
 menu:

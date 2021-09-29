@@ -1,5 +1,5 @@
 label nameselection:
-    $ povname = renpy.input("Input Name:")
+    $ povname = renpy.input("Input Name")
     $ povname = povname.strip()
 
     if not povname:

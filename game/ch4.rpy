@@ -11,9 +11,10 @@ show mori jacket neu at center
 "I can tell by his posture alone that something serious is up."
 mori "..."
 "I follow his gaze to try and anticipate the problem and for a moment, I don't see anything."
-"But then I realize that there's a column of steem rising in a weirdly narrow band, growing thicker and denser by the second."
+"But then I realize that there's a column of steam rising in a weirdly narrow band, growing thicker and denser by the second."
 pov "I have a bad feeling about this..."
-   
+
+  
 hide mori jacket neu
 show mori jacket srs
    
@@ -27,7 +28,7 @@ mori "Sorry, no time right now.  Maybe later.  But stay back, alright?  Cover yo
 mori "I can handle this but you definitely can't."
 "OKAY well that's ominous as hell but I don't have time to say much."
    
-play music "audio/demon.ogg" fadein 3.0 volume 0.25
+play music "audio/demon.ogg" fadeout 2.0 fadein 1.0 
 
 "There's a horrible grating sound coming from the building ledge and before my eyes can focus on the newest danger, the wind shifts and the smell hits me like a wall."
 "It's {i}fetid{/i}."
@@ -40,14 +41,15 @@ play sound "audio/jumpscare.ogg" volume 0.5
 
 "There's a person."
 "A cop.  Clawing their way onto the roof."
-"The sulfuric fog is rizing off them in visible, yellowish wafts and the flashing lights from the police cars below cast its twisted features into stark, horrifying contrast."
-"Whatever it is, it isn't human."
+"The sulfuric fog is rising off them in visible, yellowish wafts and the flashing lights from the police cars below cast its twisted features into stark, horrifying contrast."
+"It's not a cop, it's not a person..."
 "I gasp before I can stop myself and Mori adjusts the way his feet are braced so he's firmly in front of me."
 "Whatever this thing is... it clawed its way up a five storey building on its own power."
 
 "As it jerkily pulls itself up over the ledge I can feel my brain straining to classify it."
-"It's humanish in shape but distorted to monstrous proportions.  Pale, twisted limbs stretch out at gangling angles, the police uniform that once fit this thing's twisted body hanging off it in tatters."
-"Long digits curve into claws sharp enough to gouge brink and its slack, vertically slit maw is a horrorshow of teeth like some kind of demonic lamprey..."
+"It's humanish in general shape but distorted to monstrous proportions.  Pale, twisted limbs stretch out at gangling angles, and it moves sideways like a crab."
+"The police uniform that once fit this thing's gnarled body hanging off it in tatters, unable to contain the horrible limbs and size of it."
+"Long digits curve into claws sharp enough to gouge brick and its slack, vertically slit maw is a horrorshow of teeth like some kind of demonic lamprey..."
 "A low, rattling hiss issues from it with its ragged breaths, along with a quanity of black, ropey saliva."
 
 mori "Ugh..."

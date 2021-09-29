@@ -1,5 +1,3 @@
-# The game starts here.
-
 label ch1:
 
     image pitrats = "images/pitrats.png"
@@ -14,7 +12,6 @@ label ch1:
     "There's this place... a music venue.  It's a couple of blocks from my flat.  Mostly, it caters to punks though I did catch a couple goth bands there last weekend."
     
     scene bg alley with dissolve
-    #stop music fadeout 1.0
     play music "audio/punkmuffled.ogg" fadeout 1.0 fadein 1.0 volume 0.35
     show pitrats at Position(xpos=0.7, ypos=0.6)
     with dissolve
@@ -24,7 +21,6 @@ label ch1:
     "I give the bouncer my $5 cover and head down the dark, dank stairs underground."
 
     hide pitrats with dissolve
-    #stop music fadeout 1.0
     play music "audio/punk.ogg" fadeout 1.0 fadein 2.0 volume 0.50
     scene bg venue with fade
 
@@ -33,17 +29,15 @@ label ch1:
     "At the front of the crowd, I can see the frenzied movements of the mosh pit and past that, the stage sits... It's maybe ten or so inches off the concrete floor and shoddily made out of plywood."
     
     play music "audio/crowd.ogg" fadeout 3.0 fadein 6.0 volume 0.75
+
     "The cacophany dies down after another second, the band finishing their set with a last smashing chord that vibrates through the building and sends a wave of shouts up from the jumping crowd."
-    
-    #stop music fadeout 4.0
-    
     
     "The band files off stage, replaced by a new group who immediately get to work adjusting equipment.  I know there's going to be a lull for a few minutes while they set up..."
     "I might as well hit up the drink table while I have the chance."
 
     show mori jacket drunk with moveinright
 
-    "Just as I'm about to reach the table, some dude barrels in front of me, slaps down a crushed wad of singles and takes two plastic cups of nearly stale beer without a word to the vendor."
+    "Just as I'm about to reach the it, some dude barrels in front of me, slaps down a crushed wad of singles and takes two plastic cups of nearly stale beer without a word to the vendor."
     "He drinks both in a matter of seconds and lets out he most theatrical {i}AHHHHHH{/i} I've literally ever heard."
     "He turns around and it's suddenly clear he must have just gotten out of the mosh pit.  He's... very sweaty."  
     "Dark hair is plastered to his forehead and his face is flushed with (I'm assuming) more exertion than alcohol."
@@ -86,7 +80,8 @@ label ch1:
 
     morix "I've seen you here a few times.  You usually come late and stay for the punk rock block."
 
-    "He turns to look at me fully, crossing his heavily tattooed arms in front of his chest.  I can see he's a bit more muscular than he looks from further away but I do my best not to get caught staring like a dumbass."
+    "He turns to look at me fully, crossing his heavily tattooed arms in front of his chest."  
+    "I can see he's a bit more muscular than he looks from further away but I do my best not to get caught staring like a dumbass."
     "Still, his tattoos are very intricate and vibrant, disappearing under his jacket- though there's a few wisps of ink at his torn collar, hinting to more going on under his shirt."
     "He's watching me with some interest however, so I busy myself with my drink and nod faintly."
     prename "Yeah... I get restless and like to burn off energy here.  It's cheap entertainment and I get to listen to some pretty badass bands."
