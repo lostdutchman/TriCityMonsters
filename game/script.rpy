@@ -8,7 +8,7 @@ define morix = Character("Some Dude", color="#0095ac")
 define mori = Character("Mori", color="#0095ac")
 define prename = Character("", color="#FFFFFF", what_prefix='"', what_suffix='"')
 define frontman = Character ("Band Frontman", color="#e78801")
-define thing = Character ("THING", what_font="fonts/Brack.ttf", color="#960000")
+define thing = Character ("THING", what_font="fonts/HauntAOE.ttf", color="#960000", what_font_size = 72)
 default povname = "Emcee"
 
 image splash = "splash.png"

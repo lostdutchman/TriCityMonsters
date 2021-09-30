@@ -56,7 +56,7 @@ mori "Ugh..."
 
 "I can feel a scream rising up my chest but it catches in my throat and I can't... I can't do anything..."
 "This can't be real...  It can't be..."
-"The twisted, mangled mess of limbs crawls up onto the rooftop like a crab, sideways and skittery.  It's huge too, stretched out and so malformed my brain feels like it's shorting out just looking at it."
+"The twisted, mangled mess of limbs crawls up onto the rooftop sideways and skittery.  It's huge too, stretched out and so malformed my brain feels like it's shorting out just looking at it."
 
 mori "Hey."
 mori "Breathe.  You'll pass out."
@@ -64,33 +64,33 @@ mori "Breathe.  You'll pass out."
 "{i}Damn{/i}, his voice is jarringly calm... even if he doesn't turn his eyes away from the horror or uncoil."
 "The thing takes a deep breath and then..."
 
-thing "You are a cocky little shit."
+thing "{size=50}You're a cocky little shit.{/size}"
 
 pov "Holy shit it talked-!"
 
 mori "Quiet!"
 
-thing "Pay attention to what is in front of you."
-thing "Dont expect me to let you walk away after making me chase you."
+thing "{size=50}Pay attention to what's in front of you, boy.{/size}"
+thing "{size=50}Dont expect me to let you walk away after making me chase you down.{/size}"
 
 mori "Get fucked."
 mori "You turn this into a fight and you won't walk off what I do to you."
 
-thing "You owe a debt"
-thing "You signed a contract"
-thing "You have not delivered"
+thing "{size=50}You owe a debt!{/size}"
+thing "{size=50}You signed a contract!{/size}"
+thing "{size=50}You have not delivered!!{/size}"
 
 "The thing's melting, dripping face angles for a second and it makes a noise like a huge dog sniffing tentatively."
 "It shifts slightly and- recognizable facial features or no- I can tell it's staring at me."
 "Honestly, I have no idea how I keep from fainting on the spot.  My heart feels like it's about to explode."
 
-thing "Unless thats supposed to be your idea of payment."
+thing "{size=50}Unless that's supposed to be your idea of payment.{/size}"
 mori "[they!t!c] [are!t] absolutely not.  So fuck off."
 
-thing "Your mortal audacity always entertains."
-thing "But I am not going back empty handed today."
-thing "[they!t!c!] [are!t] a paltry offering after two years Meatsack."
-thing "Get your priorities straight Contractbound.  Youre not hard to find and not even Hell will wait forever."
+thing "{size=50}Always so confident.  It's misplaced.{/size}"
+thing "{size=50}But I'm not going back empty handed today.{/size}"
+thing "{size=50}[they!t!c!] [are!t] a paltry offering after two years, Meatsack.{/size}"
+thing "{size=50}Get your priorities straight, Contractbound.  You're not hard to find and not even Hell will wait forever.{/size}"
 "The thing, whatever it is, tenses before launching straight at us. The sick nauseating terror locked in my throat intensifies and I finally do let out that scream."
 "I can't react fast enough.  My eyes are locked onto the pinpricks of ember-red set in its face where human eyes once sat."
 "In that instant, I know what it feels like to be a helpless prey animal-"
@@ -115,8 +115,7 @@ show bg roof with dissolve
 show mori monster shadow with moveinbottom
 
 "For just a second, something hulking and large is silouetted against the glare."
-"But something less inhuman looking than the spindly, stretched-out crab-terror-"
-"Something hairy and heavy, but fast and very quiet-"
+"Something different then the stretched out demon... something hairy and heavy, but fast and very quiet-"
 "But then the light fades and the rooftop is thrown into relative shadow again."
 
 hide mori monster shadow with dissolve
@@ -136,7 +135,7 @@ hide mori jacket srs with dissolve
 show mori shirt srs
 
 "Something's placed on my shoulders.  Something heavy that smells like... cheap detergent and body heat."
-"It's Mori's jacket, heavy with patches and studes but now that I've actually been offered warmth I realize I was freezing."
+"It's Mori's jacket, heavy with patches and studs but now that I've actually been offered warmth I realize I was freezing."
 "And shaking, actually.  Like a leaf."
 
 mori "Like a trauma blanket, right?"
