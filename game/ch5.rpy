@@ -50,49 +50,50 @@ mori "[povname]!!"
 
 play sound "audio/jumpscare.ogg"
 
-"There's another horrifying shape rushing up at us, claws gouging into the wall beneath my feet as clambers up towards me at a horrifying speed."
+"There's another horrifying shape rushing up at us, claws gouging into the wall beneath my feet as it clambers up towards me at a terrifying speed."
 "It hits me with the force of a speeding car and my feet leave the ground.  My guts drop but it all happens so fast I just can't react, even as the sky and Mori's ashen face wheel dizzyingly."
-"Something stops my fall before I hit the rooftop again and I blink numbly, watching my feet dangle maybe fifteen or so feet above the concrete."
+"Something stops my fall before I hit the rooftop again and I blink numbly, watching my feet dangle maybe ten or so feet above the concrete."
 "And then my brain kicks into gear and my insides are a cascade of ice."
-"I'm being held up like a broken toy by another twisted, grotesque shape.  Claws are gripping me tight, tight enough to puncture"
-"The smell of sulfur and the wisps of steam are choking me and a painful gag makes my body spasm in its huge clawed grasp."
+"I'm being held up like a broken toy by another twisted, grotesque shape.  Claws are gripping me tight, tight enough to puncture."
+"The smell of sulfur and the wisps of steam are choking me and a painful gag makes my body spasm in its crushing grasp."
 "Worst of all... I can tell almost immediately that this one is {i}not{/i} the same one as before..."
 "Its features are just as repulsive and there's shreds of a cop's uniform...  but this one is different..."
 
-thing "You are trying our patience, Contractbound."
+thing "{size=50}You're trying our patience, Contractbound.{/size}"
 
 mori "Put [them!t] down or I'll eviscerate you!"
 
-thing "Arrogant as always."
+thing "{size=50}Arrogant as always.{/size}"
 
-"It makes a wheezy sound that takes me a second to realize it's a laugh, all the while its claws tighten in my shoulder like knives."
+"It makes a wheezy sound and I realize after a numb second that it's a laugh, all the while its claws tighten in my shoulder like knives."
 "I'm trying desperately not to pass out from both pain and terror and man, that's really put to the test in the next instant."
-"Several more monsters emerge from around the rooftop and the sight of three of these twisted monstrosities is really putting a strain on my ability to stay rational."
+"Another pair of monsters emerge from around the rooftop and the sight of three of these twisted monstrosities is really putting a strain on my ability to stay rational."
 "Mori stands there, braced like he's gonna square up against these things and looking distinctly rebellious at the taunt."
 "He's not running."
 "Why isn't he running?"
 "No one can save us.  This is it, this is how I'm gonna die."
 "The world is a fucked up place."
 
-####SFX
+play sound "audio/jumpscare.ogg" volume 0.5
 
-"Mori moves suddenly, doubling over and nearly dropping to his knees.  I didn't see him take a hit and I frantically try to discern if he's been wounded-"
+"Mori hunches suddenly, doubling over and nearly dropping to his knees.  I didn't see him take a hit and I frantically try to discern if he's been wounded-"
 "But when he rights himself...  He's not {i}Mori{/i} anymore."
 
-hide mori shirt srs
+hide mori shirt srs with dissolve
 show mori monster neu
 
-"Something large... catlike but bipedal stands in his place, something with huge, heavy shoulders and thick fur.  Something haloed by streaks of blue fire."
+"Something large... catlike but bipedal stands in his place, something with heavy shoulders and thick fur.  Something haloed by streaks of blue fire."
 
 pov "What the {i}fuck{/i}...?"
 
-"A deep, visceral growl rips up his throat and he lunges."
-"He charges the demon holding me over the ground and moves much too fast to be stopped in time.  He crashes into it in a flurry of claws and teeth, huge split tails thrashing and ears flattened back against his skull."
-"The reactionary movement in the demon tearing my shoulder up is violent and without warning, I'm flung sideways."
+"A deep, visceral growl rips up its throat and then it lunges."
+"It charges the demon holding me over the ground and moves much too fast to be stopped in time.  It crashes into the demon in a flurry of claws and teeth..." 
+"Its huge split tails thrashing and ears flattening back against its skull as it tears into vulnerable flesh."
+"The reactionary movement in the demon is {i}violent{/i} and without warning, I'm flung sideways."
 
 "My mouth opens to scream but just like in a nightmare, nothing past a weak gasp issues out of my frozen lungs."
 "I fall gracelessly, unable to tear my eyes away from the grizzly-bear sized animal tearing chunks out of the twisted monster that had been about to rip me to shreds-"
-"And then I'm beyond the edge of the roof, plummeting down to the alley far below as the other monsters converge on what used to be Mori."
+"And then I'm beyond the edge of the roof, falling down to the alley far below as the other monsters converge on what used to be Mori."
 "It's stupid really because I know everything is happening in the space of a couple instants..."
 "But that thing, that animal..."
 "It coils and turns, tracking my fall with bright, luminous eyes that almost glow and I don't know how I'm so certain but I know that it's Mori..." 
@@ -100,15 +101,15 @@ pov "What the {i}fuck{/i}...?"
 "How...?"
 "But then he's obscured by the rim of the building as I plummet past it, falling towards certain death and the concrete below."
 
-"A heavy shape launces off the rooftop and onto the fire escape on the other side of the alley with apparently zero effort.  The steel whines loudly under its weight as the feline shape darts further downwards."
-"Hot on its twin, thick tails, several skittering awful shapes of demons come charging down behind him, tearing up concrete and denting a metal awning with a loud squeal of protest."
+"A heavy shape launches off the rooftop and onto the fire escape on the other side of the alley with apparently zero effort.  The steel whines loudly under its weight as the feline shape darts further downwards."
+"Hot on its twin, thick tails, the skittering shapes of demons come charging down behind him, tearing up concrete and denting a metal awning with a loud squeal of protest."
 "With incredible dexterity (and ignoring the things gaining on him), Mori leaps crosswise across the alley and intercepts my fall."
 
 play sound "audio/thump.ogg"
 show bg alley with hpunch
 
 "We're going too fast for him to be gentle and the wind gets knocked roughly out of me as I impact his solid, overwarm body."
-"His arm is tight and tense around my body, clawed digits tracking into my clothes."
+"His arm is tight and tense around my body, clawed digits tracking into my clothes as he reaches to grab a gutter line to slow his fall."
 "The relief flooding me right then is indescribable, I can't believe he caught me-"
 
 play sound "audio/thump.ogg"
@@ -117,23 +118,24 @@ show bg alley with hpunch
 "Something impacts us from the side hard enough to smash Mori into the far wall.  I can feel him shift so he hits the wall back-first, keeping me from splattering across the surface."
 "And given the level of damage his body does to the brick, that's exactly what would have happened to me."
 "The demons are bearing down on us and the nearest one takes another swing with its horrible, twisted limb."
-"Mori's already on the move, dropping on his free hand and feet as the threat comes with range of delivering a killing blow.  Mori's fast as hell, however.  Overbright, vertically slitted eyes dilating with pure bestial focus."
-"He grabs the clawed appendage as it moves in, his own claws digging in tight and he {i}pulls{/i}.  The demon moves in close enough for its blue cop uniform to drag against me." 
+"Mori's already on the move, hunching low as the threat comes with range of delivering a killing blow.  Mori's fast as hell, however."
+"I watch stupidly as his overbright, vertically slitted eyes dilate with pure bestial focus."
+"He grabs the gnarled mess of demon appendage as it moves in, his own claws digging in tight and he {i}pulls{/i}.  The demon moves in close enough for its blue cop uniform to drag against me." 
 
 show bg alley with hpunch
 ###SFX TEAR?
 
 "Mori leans in, angles his head, and sinks huge fangs into the demon's distended throat."  
-"The smell of sulfur intensifies a hundredfold as Mori yanks back and black blood floods out of his kill."
-"The noise this thing makes is agonized and hellish but Mori's already moving again, dropping down lower as the demon spasms and boiling, glowing blood spills out of it in torrents."
-"In an instant, it's consumed by a flash of light- the same one I caught the end of before on the rooftop- and its corpse is gone."
-"Mori's still moving, dropping down the wall and nimbly using several signs and a trellis to slow his fall."
+"The smell of sulfur intensifies a hundredfold as Mori yanks back and electric blue blood sprays out of his kill."
+"The noise this thing makes is agonized and hellish but Mori's already moving again, adjusting my mostly-deadweight as the demon spasms..."
+"and boiling, glowing blood spills out of it in torrents.  The reek is overpowering."
+"In an instant, it's consumed by a flash of light- the same one I caught the end of before on the rooftop- and its corpse is gone, the neon blue blood spatters going dim and darkening rapidly."
 "But there's still two of those things right on our asses."
 "One reaches out to sink claws into Mori's unprotected side but a sudden pivot leaves it out of range, though several tufts of thick, silver fur disperse into the night."
-"We hit the ground hard enough to wind but not hard enough to injure and Mori rolls instantly, pushing me to my back and bracing over me protectively, ears swivelled back and sharp eyes tracking prey."
+"We hit the ground hard enough to wind but not hard enough to injure and Mori rolls instantly, pushing me to my back and bracing over me protectively, ears swivelled back and sharp eyes tracking the threats."
 
 hide mori monster neu
-show moricg1
+show moricg1 with dissolve
 $ renpy.pause ()
 #####music change
 
@@ -141,9 +143,9 @@ mori "You okay?"
 
 "His voice is deep and rough like this, the sound rumbling in the pit of his huge chest.  Even though his face is mostly feline, I can still see his concern surprisingly clearly."
 
-pov "Yeah... Yeah, I'm fine.  Thanks to you."
+pov "Yeah... Yeah, I'm fine.  Thank you..."
 
-"He lets out a breath through his nose, where there's a smear of blood from the wall impact slowly coagulating."
+"He lets out a breath through his nose, where there's a smear of dark red blood from the wall impact slowly coagulating."
 
 mori "We're not out of the woods yet, hang tight a sec."
 
@@ -169,10 +171,10 @@ label ch5_convo1:
     show bg alley with dissolve
     show mori monster neu
 
-    "Mori launches directly into the threat, heedless of the danger.  With slightly more than a few instants to register now, I can better see him in action. "
+    "Mori launches directly into the dual threat, heedless of the danger.  With slightly more than a few instants to register now, I can better see him in action."
     "He switches between moving in a hunched, predatory quadrapedal lope and upright, but either way he's fast.  Faster than the demons."
     "He's able to get in close and sink claws and teeth into them without much issue, breaking past their guard and apparently unphased by eithe their horrific appearances or god-awful smell."
-    "His thick tails- split in two down the center into two independently moving appendages, thrash angrily and the wisps of flame following him cast a ghostly glow on the surrounding surfaces."
+    "His thick tails- split down the center into two independently moving appendages, thrash angrily and the wisps of flame following him cast a ghostly glow on the surrounding surfaces."
     "Honestly, it's only a couple of seconds before the alley is a veritable bloodbath."
     "Mori is a powerhouse like this and he holds nothing back."
 

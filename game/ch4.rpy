@@ -13,7 +13,6 @@ mori "..."
 "I follow his gaze to try and anticipate the problem and for a moment, I don't see anything."
 "But then I realize that there's a column of steam rising in a weirdly narrow band, growing thicker and denser by the second."
 pov "I have a bad feeling about this..."
-
   
 hide mori jacket neu
 show mori jacket srs
@@ -110,12 +109,11 @@ show bg roof with dissolve
 "I've faceplanted on the ground and I struggle to get back up.  My knee's scraped up but its superficial."
 "I struggle to pull myself up as quick as I can, my vision still reeling from the instant of confusion."
 "Shaky with adrenaline, I manage to get up and and regain my bearings just in time to see a bright flash of light."
-"Like a column of fire it ignites the rooftop."
 
 show mori monster shadow with moveinbottom
 
 "For just a second, something hulking and large is silouetted against the glare."
-"Something different then the stretched out demon... something hairy and heavy, but fast and very quiet-"
+"Something different then the stretched-out demon... something hairy and heavy, but fast and very quiet-"
 "But then the light fades and the rooftop is thrown into relative shadow again."
 
 hide mori monster shadow with dissolve
@@ -138,13 +136,19 @@ show mori shirt srs
 "It's Mori's jacket, heavy with patches and studs but now that I've actually been offered warmth I realize I was freezing."
 "And shaking, actually.  Like a leaf."
 
+hide mori shirt srs
+show mori shirt smile
+
 mori "Like a trauma blanket, right?"
 
 "He laughs lowly."
 
 pov "Yeah I am {i}definitely traumatized{/i}."
 
-"I suddenly realize his hands are bloody and recoil."
+"I suddenly realize his hands are stained with blood so dark its almost black and recoil."
+
+hide mori shirt smile
+show mori shirt srs
 
 menu:
     "What the {i}fuck{/i} was that thing!?":
@@ -152,10 +156,13 @@ menu:
     "Holy shit that's a lot of blood...":
          jump ch4_convo1b
 
-label ch4_convo1:        
-    mori "Uh..."
-    mori "Gone."
+label ch4_convo1:    
+    hide mori shirt srs
+    show mori shirt neu   
 
+    mori "Uh..."
+    mori "Well... I mean you looked right at it, I can't really lie about it now, you know?"
+    mori "Oh, don't worry.  It's gone now, though."
     pov "Gone...??"
 
     mori "Yeah, I took care of it."
@@ -163,17 +170,18 @@ label ch4_convo1:
     "I look at his hands in disbelief.  Did he...?"
 
     mori "Look, this is a really bad place to hang out.  I can... answer questions in a minute but we should leave first."
-
     "His face is pulling into an expression that says he really does not want to answer any questions but I can hear the earnest need to move in his tone."
     jump ch4_movingon
 
 label ch4_convo1b:
+    hide mori shirt srs
+    show mori shirt neu 
     
     mori "[povname], relax it's not mine."
     
-    "That does {i}not{/i} make me relax at all."
+    "That does not make me relax at all."
 
-    pov "{i}You killed that thing!?{/i}"
+    pov "You {i}killed{/i} that thing!?"
     pov "How!?"
 
     "I look around frantically and sure enough, there's hardly a sign anything inhuman was running around up here."
@@ -181,12 +189,8 @@ label ch4_convo1b:
 label ch4_movingon:
     pov "Where's... where's the body, though?"
 
-hide mori shirt srs
-show mori shirt neu
-
 "Mori actually looks a little shifty for a second."
 "And he actually brings his filthy hand up to his lips while he scans the rooftops again, sucking on one of his knuckles absently."
-
 
 ####### MF Choice 4
 menu:
@@ -199,7 +203,7 @@ menu:
 
 label ch4_convo2:
     "He jumps at the touch but doesn't resist and for a second he looks at me like he has no idea what I am."
-    "There's something minutely indignant about the expression too that makes my guts squirm a little... but he doesn't say anything and slowly straightens out."
+    "There's something... slightly indignant about the expression too that makes my guts squirm a little... but he doesn't say anything and slowly straightens out."
     jump ch4_movingon2
 
 label ch4_convo2b:

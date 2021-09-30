@@ -7,7 +7,7 @@ show mori jacket smile
 "It's sweaty..."
 "Not the most pleasant thing in the world, honestly, but I can't deny that I do feel a lot better with someone looking out for me."
 "Ahead of him I can make out the tall, thick figure of the vocalist and the rest of the band, moving with purpose towards the exit."
-"...and then I realize something."
+"...And then I realize something."
 "The cops are almost entirely focused on getting people out of the way so they can get to the band."
 
 hide mori jacket smile
@@ -32,7 +32,7 @@ show mori jacket grin
 mori "hehehh"
 mori "Thanks!  I didn't even see him!"
 
-"He spares a second to smirk widely at me.  Is he really enjoying this that much?"
+"He spares a second to smirk widely at me.  Is he actually enjoying this?"
 "The cop recovers and makes to lunge again but Mori- without an iota of hesitation- shoulder checks him roughly and lets out another loud crow of laughter." 
 "The cop sags momentarily, winded and bruised..."
 "Okay, no, this really is fun for him."
@@ -52,7 +52,7 @@ mori "Up. Hurry."
 
 hide mori jacket jacket grin with dissolve
 
-"Obliging, I launch up as quick as I can.  The metal warps slightly beneath me, especially once Mori climbs up beneathe me."  
+"Nodding faintly, I pull myself up as quick as I can.  The metal warps slightly beneath me, especially once Mori climbs up beneathe me."  
 "I reach the hatch without issue and yank on the ancient, grime-coated release lever, but it won't budge."
 "The scene below is still utter chaos and I can feel panicked sweat start to break out on my forehead..."
 "In the crowd, several furious cops point out our location to more fighting their way down from the alley entrance."
@@ -152,6 +152,7 @@ show mori jacket srs
 "There's no fire escape back down the side of the building."
 pov "Shit, how are we gonna get down...?"
 pov "Do you think we can hide up here until the coast is clear?"
+"He lets out an irritable {i}tch{/i}."
 mori "Nah, it's too late for that."
 "I turn to press him for solutions- this is his fault, after all- but I can tell immediately something's not right."
 
