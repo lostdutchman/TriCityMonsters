@@ -37,7 +37,7 @@ show mori shirt smile
 
 mori "I can jump it."
 
-pov "No you can't, that's like fifteen feet and we're five storeys up!  And you think you're gonna make that holding me or something!?"
+pov "No you can't, that's like fifteen feet and we're five stories up!  And you think you're gonna make that holding me or something!?"
 
 hide mori shirt smile
 show mori shirt srs
@@ -46,7 +46,7 @@ show mori shirt srs
 
 mori "[povname]!!"
 
-"Stupidly, I look down at what's got him looking suddenly afraid instead of recoiling away at his warning."
+"Stupidly, I follow his shocked gaze and look down the length of the building stretched out beneathe my scuffed shoes."
 
 play sound "audio/jumpscare.ogg"
 
@@ -100,17 +100,18 @@ pov "What the {i}fuck{/i}...?"
 "How...?"
 "But then he's obscured by the rim of the building as I plummet past it, falling towards certain death and the concrete below."
 
-"A heavy shape hurtles off the rooftop and onto the fire escape on the other side of the alley with apparently zero effort.  The steel whines loudly under its weight as the massive feline barrels downards."
+"A heavy shape launces off the rooftop and onto the fire escape on the other side of the alley with apparently zero effort.  The steel whines loudly under its weight as the feline shape darts further downwards."
 "Hot on its twin, thick tails, several skittering awful shapes of demons come charging down behind him, tearing up concrete and denting a metal awning with a loud squeal of protest."
 "With incredible dexterity (and ignoring the things gaining on him), Mori leaps crosswise across the alley and intercepts my fall."
 
-#play sound "audio/thud.ogg"
+play sound "audio/thump.ogg"
+show bg alley with hpunch
 
-"The catch isn't gentle and the wind gets knocked out of me as I impact his solid, overwarm body."
-"His arm is rock solid around my body, clawed digits tracking into my clothes."
+"We're going too fast for him to be gentle and the wind gets knocked roughly out of me as I impact his solid, overwarm body."
+"His arm is tight and tense around my body, clawed digits tracking into my clothes."
 "The relief flooding me right then is indescribable, I can't believe he caught me-"
 
-#play sound "audio/thud.ogg"
+play sound "audio/thump.ogg"
 show bg alley with hpunch
 
 "Something impacts us from the side hard enough to smash Mori into the far wall.  I can feel him shift so he hits the wall back-first, keeping me from splattering across the surface."

@@ -44,7 +44,7 @@ play sound "audio/jumpscare.ogg" volume 0.5
 "The sulfuric fog is rising off them in visible, yellowish wafts and the flashing lights from the police cars below cast its twisted features into stark, horrifying contrast."
 "It's not a cop, it's not a person..."
 "I gasp before I can stop myself and Mori adjusts the way his feet are braced so he's firmly in front of me."
-"Whatever this thing is... it clawed its way up a five storey building on its own power."
+"Whatever this thing is... it clawed its way up a five-story building on its own power."
 
 "As it jerkily pulls itself up over the ledge I can feel my brain straining to classify it."
 "It's humanish in general shape but distorted to monstrous proportions.  Pale, twisted limbs stretch out at gangling angles, and it moves sideways like a crab."

@@ -38,7 +38,7 @@ label ch6_movingon:
     hide mori shirt srs
     show mori shirt smile
 
-"We turn a corner and come upon a solid brick apartment building.  Mori gestures to and external fire escape and leads me up to a second storey balcony."
+"We turn a corner and come upon a solid brick apartment building.  Mori gestures to and external fire escape and leads me up to a second-story balcony."
 pov "After all that you're not even going to invite me inside?"
 mori "Oh, its a {i}mess{/i}, not ready for you to see how I'm living just yet.  Try again next time."
 "I shake my head a little exasperatedly but I can't really help but smirk."
