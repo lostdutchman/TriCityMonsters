@@ -134,7 +134,6 @@ show bg alley with hpunch
 "One reaches out to sink claws into Mori's unprotected side but a sudden pivot leaves it out of range, though several tufts of thick, silver fur disperse into the night."
 "We hit the ground hard enough to wind but not hard enough to injure and Mori rolls instantly, pushing me to my back and bracing over me protectively, ears swivelled back and sharp eyes tracking the threats."
 
-hide mori monster neu
 show moricg1 with dissolve
 $ renpy.pause ()
 #####music change
@@ -156,7 +155,10 @@ mori "And maybe don't watch."
 "He moves before I can react- there's no time to say anything with a demon free-for-all about to happen."
 
 hide moricg1 with dissolve
+hide mori monster neu
 show bg black
+
+
  
 #################MF CHOICE 5
 menu:
@@ -173,7 +175,7 @@ label ch5_convo1:
 
     "Mori launches directly into the dual threat, heedless of the danger.  With slightly more than a few instants to register now, I can better see him in action."
     "He switches between moving in a hunched, predatory quadrapedal lope and upright, but either way he's fast.  Faster than the demons."
-    "He's able to get in close and sink claws and teeth into them without much issue, breaking past their guard and apparently unphased by eithe their horrific appearances or god-awful smell."
+    "He's able to get in close and sink claws and teeth into them without much issue, breaking past their guard and apparently unphased by either their horrific appearances or god-awful smell."
     "His thick tails- split down the center into two independently moving appendages, thrash angrily and the wisps of flame following him cast a ghostly glow on the surrounding surfaces."
     "Honestly, it's only a couple of seconds before the alley is a veritable bloodbath."
     "Mori is a powerhouse like this and he holds nothing back."
@@ -197,14 +199,14 @@ hide mori shirt neu
 show mori shirt smile
 
 menu: 
-    "You're goddamned right :)":
+    "You're goddamned right I have questions. :)":
         jump ch5_convo2
     "Is this your pick up routine?":
         jump ch5_convo2b
 
 label ch5_convo2:
     mori "Okay, okay, I did promise"
-    "Without any further needling, he helps me to my feet and we- thankfully- stick to the street level."
+    "Without any further needling, he helps me to my feet and this time, we stick to the street level, thank god."
     jump ch5_movingon2
 
 label ch5_convo2b:

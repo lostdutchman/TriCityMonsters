@@ -1,40 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 69, in script call
-    call consentscene
-  File "game/consentscene.rpy", line 43, in script call
-    call screen credits
-  File "game/script.rpy", line 69, in script call
-    call consentscene
-  File "game/consentscene.rpy", line 43, in script call
-    call screen credits
-ScriptError: could not find label 'main_menu'.
+  File "game/script.rpy", line 65, in script call
+    call ch5
+  File "game/ch5.rpy", line 138, in script
+    show moricg1 with fade (1.0)
+TypeError: 'MultipleTransition' object is not callable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/bootstrap.py", line 326, in bootstrap
-    renpy.main.main()
-  File "renpy/main.py", line 617, in main
-    run(restart)
-  File "renpy/main.py", line 148, in run
-    renpy.execution.run_context(True)
-  File "renpy/execution.py", line 922, in run_context
-    context.run()
-  File "game/script.rpy", line 69, in script call
-    call consentscene
-  File "game/consentscene.rpy", line 43, in script call
-    call screen credits
-  File "game/script.rpy", line 69, in script call
-    call consentscene
-  File "game/consentscene.rpy", line 43, in script call
-    call screen credits
-  File "renpy/script.py", line 918, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'main_menu'.
+  File "game/script.rpy", line 65, in script call
+    call ch5
+  File "game/ch5.rpy", line 138, in script
+    show moricg1 with fade (1.0)
+  File "renpy/ast.py", line 1438, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "renpy/exports.py", line 1682, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "renpy/display/core.py", line 2718, in do_with
+    clear=clear)
+  File "renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3633, in interact_core
+    new_widget=layers_root)
+TypeError: 'MultipleTransition' object is not callable
 
 Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
 Tri City Monsters 1.0
-Thu Sep 30 08:55:52 2021
+Thu Sep 30 09:44:27 2021
