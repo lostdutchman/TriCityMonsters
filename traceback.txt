@@ -3,7 +3,7 @@
 While running game code:
   File "renpy/common/00action_menu.rpy", line 107, in __call__
     raise Exception("%r is not a screen or a label." % orig_screen)
-Exception: u'credits' is not a screen or a label.
+Exception: u'about' is not a screen or a label.
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -44,9 +44,9 @@ Full traceback:
     return action(*args, **kwargs)
   File "renpy/common/00action_menu.rpy", line 107, in __call__
     raise Exception("%r is not a screen or a label." % orig_screen)
-Exception: u'credits' is not a screen or a label.
+Exception: u'about' is not a screen or a label.
 
 Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
 Tri City Monsters 1.0
-Wed Sep 29 14:32:51 2021
+Wed Sep 29 16:06:59 2021

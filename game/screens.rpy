@@ -327,7 +327,7 @@ screen navigation():
 
             textbutton _("Main Menu") action MainMenu()
 
-        textbutton _("Credits") action ShowMenu("credits")
+        textbutton _("Credits") action ShowMenu("about")
         
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
@@ -412,7 +412,7 @@ screen main_menu():
             textbutton _("Main Menu") action MainMenu()
 
         #textbutton _("About") action ShowMenu("about")
-        imagebutton auto "gui/mm_credits_%s.png" xpos 0.625 ypos 772 focus_mask True action ShowMenu("credits") hovered [Play ("sound", "audio/neonbuzz.ogg") ]
+        imagebutton auto "gui/mm_credits_%s.png" xpos 0.625 ypos 772 focus_mask True action ShowMenu("about") hovered [Play ("sound", "audio/neonbuzz.ogg") ]
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
@@ -599,40 +599,37 @@ style return_button:
     yoffset -45
 
 
+## About screen ################################################################
+##
+## This screen gives credit and copyright information about the game and Ren'Py.
+##
+## There's nothing special about this screen, and hence it also serves as an
+## example of how to make a custom screen.
 
-screen credits():
-    vbox:
-        add "images/credits_image.png"
-        
+screen about():
 
-# ## About screen ################################################################
-# ##
-# ## This screen gives credit and copyright information about the game and Ren'Py.
-# ##
-# ## There's nothing special about this screen, and hence it also serves as an
-# ## example of how to make a custom screen.
+    tag menu
 
-# screen about():
+    ## This use statement includes the game_menu screen inside this one. The
+    ## vbox child is then included inside the viewport inside the game_menu
+    ## screen.
+    use game_menu(_("Credits")):
+        add "images/credits_hover.png" 
 
-#     tag menu
+        style_prefix "about"    
+style game_menu_outer_frame:
+    top_padding 100
 
-#     ## This use statement includes the game_menu screen inside this one. The
-#     ## vbox child is then included inside the viewport inside the game_menu
-#     ## screen.
-#     use game_menu(_("Credits"), scroll="viewport"):
+        #vbox:            
+           
+            # label "[config.name!t]"
+            # text _("Version [config.version!t]\n")
 
-#         style_prefix "about"
+            # ## gui.about is usually set in options.rpy.
+            # if gui.about:
+            #     text "[gui.about!t]\n"
 
-#         vbox:
-                   
-#             label "[config.name!t]"
-#             text _("Version [config.version!t]\n")
-
-#             ## gui.about is usually set in options.rpy.
-#             if gui.about:
-#                 text "[gui.about!t]\n"
-
-#             text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            # text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
 
 
 
