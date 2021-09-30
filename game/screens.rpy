@@ -366,7 +366,7 @@ style navigation_button_text:
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
-    tag menu
+    tag menu      
 
     add gui.main_menu_background
 

@@ -59,8 +59,7 @@ label monster:
     "Without direction he slots a thick thigh between mine and already the heat is stifling and I'm gasping under him."
     "If nothing else, at least insomnia meant that tonight I'd meet a fun, if reckless and charmingly cocky, monster."
 
-    show bg black with fade (3.0)
-    
+    show bg black
 
 label human:
     "Mori leans in immediately and in the next instant his mouth is on mine.  His motions are confident (I mean, he does everything with an absurd amount of confidence)."

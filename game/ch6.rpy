@@ -151,4 +151,5 @@ show mori shirt smile
 "Instead of looking irritated at this, he only looks mildly delighted."
 mori "Really.  Not afraid of me but back in Pitrats you looked so scared in that crowd."
 pov "Mori, you have toe beans.  Some of them are pink."
+
 return

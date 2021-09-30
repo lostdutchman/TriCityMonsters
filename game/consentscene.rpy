@@ -40,4 +40,5 @@ mori "Saturday.  At the Drunk Tank."
 "I nod, laughing slightly."
 pov "Alirght I'll be there."
 
-jump credits
+call screen credits
+$ renpy.pause ()
