@@ -136,6 +136,7 @@ play music "audio/roof.ogg" fadeout 1.0 fadein 0.5
 #################  MF choice 3
 menu:
     "I think he might be insane.":
+        $ ending_progress = ending_progress - 1
         jump ch3_convo2
     "I think he might be insane and it's a little hot.":
         $ ending_progress = ending_progress + 1

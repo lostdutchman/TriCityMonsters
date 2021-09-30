@@ -1,7 +1,7 @@
 
 label endingresult:
 
-if ending_progress > 2:
+if ending_progress > 0:
     jump monster
 else:
     jump human

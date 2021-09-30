@@ -53,6 +53,7 @@ menu:
         $ ending_progress = ending_progress + 1
         jump ch2_convo1
     "Watch from here.":
+        $ ending_progress = ending_progress - 1
          jump ch2_convo1b
 
 label ch2_convo1:        
@@ -94,6 +95,7 @@ play music "audio/tense.ogg" fadeout 2.0 fadein 1.0 volume 0.65
 menu:
     "Try to comply.":            
         jump ch2_convo2
+        $ ending_progress = ending_progress - 1
     "{i}RUN{/i}.":
         $ ending_progress = ending_progress + 1
         jump ch2_convo2b

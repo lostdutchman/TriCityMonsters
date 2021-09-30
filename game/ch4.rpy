@@ -195,6 +195,7 @@ show mori shirt neu
 ####### MF Choice 4
 menu:
     "{i}Pull his bloody hand away from his mouth{/i}":
+        $ ending_progress = ending_progress - 1
         jump ch4_convo2
     "Mori! ANSWERS NOW PLEASE.":
         $ ending_progress = ending_progress + 1

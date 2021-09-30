@@ -161,6 +161,7 @@ menu:
         $ ending_progress = ending_progress + 1
         jump ch5_convo1
     "{i}Look away.{/i}":
+        $ ending_progress = ending_progress - 1
         jump ch5_convo1b
 
 label ch5_convo1:
