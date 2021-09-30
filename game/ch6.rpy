@@ -97,7 +97,7 @@ mori "The contract brought me back to life and turned me into a demon.  That's t
 "Mori does air quotes and rolls his dark eyes somewhat irritably."
 mori "Have you ever heard the word kaibyo?  Or bakeneko?"
 pov "No, is that what it's called?"
-mori "I grew up in Okinawa, going off the myths there's a lot of prominent monster cats in that neck of the world.  Cats that can change shape, talk to spirits..."
+mori "There's a lot of monster cats but those seem like they're the closest match.  Cats that can change shape, talk to spirits..."
 
 hide mori shirt srs with dissolve
 show mori spirits srs with dissolve

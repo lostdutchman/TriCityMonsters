@@ -9,7 +9,7 @@ label ch1:
     "So.  The {i}city{/i}.  Sure, it has its problems.  Lots of them.  But one of the benefits is that there's stuff to do even late at night."
     "Even very, {i}very{/i} late at night."
     "Insomnia knocks and there's not much I can do besides try to find some distraction.  Sleep will come...  When, I can't say.  But definitely not now and I can only lay around in bed so much."
-    "There's this place... a music venue.  It's a couple of blocks from my flat.  Mostly, it caters to punks though I did catch a couple goth bands there last weekend."
+    "There's this place... a music venue.  It's a couple of blocks from my flat. It caters to punks mostly, though I did catch a couple goth bands there last weekend."
     
     scene bg alley with dissolve
     play music "audio/punkmuffled.ogg" fadeout 1.0 fadein 1.0 volume 0.35
