@@ -54,7 +54,7 @@ menu:
         jump ch2_convo1
     "Watch from here.":
         $ ending_progress = ending_progress - 1
-         jump ch2_convo1b
+        jump ch2_convo1b
 
 label ch2_convo1:        
     "Partly of my own volition and partly because everyone at the back of the floor is now pushing forward, I find myself nearer to the stage, just out of swing-range of the mosh pit."

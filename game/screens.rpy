@@ -614,11 +614,12 @@ screen about():
     ## vbox child is then included inside the viewport inside the game_menu
     ## screen.
     use game_menu(_("Credits")):
-        add "images/credits_hover.png" 
+        add "images/credits_ground.png" 
 
         style_prefix "about"    
+
 style game_menu_outer_frame:
-    top_padding 100
+    top_padding 60
 
         #vbox:            
            

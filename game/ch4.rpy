@@ -91,11 +91,8 @@ thing "Your mortal audacity always entertains."
 thing "But I am not going back empty handed today."
 thing "[they!t!c!] [are!t] a paltry offering after two years Meatsack."
 thing "Get your priorities straight Contractbound.  Youre not hard to find and not even Hell will wait forever."
-
-"And then that sick nauseating terror locked in my throat intensifies and I finally do let out that scream."
-
-"The thing, whatever it is, tense before launching straight at us.  My brain just freezes.  I can't react fast enough."
-"My eyes are locked onto the pinpricks of ember-red set in its face where human eyes once sat."
+"The thing, whatever it is, tenses before launching straight at us. The sick nauseating terror locked in my throat intensifies and I finally do let out that scream."
+"I can't react fast enough.  My eyes are locked onto the pinpricks of ember-red set in its face where human eyes once sat."
 "In that instant, I know what it feels like to be a helpless prey animal-"
 "Then something hits my legs and I go down."
 
