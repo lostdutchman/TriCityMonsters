@@ -224,7 +224,7 @@ label ch5_convo2b:
     
     hide mori shirt smile
     show mori shirt hehe
-    
+
     mori "Is it working?"
     pov "{i}No!{/i}"
 
@@ -232,22 +232,5 @@ label ch5_movingon2:
     "I'm actually scared witless and monster or not, I'm very glad Mori's with me.  He's capable, if nothing else, though his careless nature and willingness to help are definitely ingratiating him to me."
     "Sure, he's the reason I was exposed to any of this but he also stuck his neck out to help when things got rough."
     "And maybe I'm kind of getting slightly attached to his lopsided smirk and his loud cackle."
-
-return
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 return

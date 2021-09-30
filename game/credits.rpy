@@ -1,6 +1,5 @@
 screen credits():
-    $ quick_menu = False
-    
+        
     imagemap:
         ground "credits1.png"
         idle "credits1.png"
@@ -19,6 +18,12 @@ screen credits():
         hotspot(1167, 567, 456, 46) action OpenURL("https://www.youtube.com/watch?v=kGf9_EuAswc")
         hotspot(1166, 648, 403, 47) action OpenURL("https://www.youtube.com/watch?v=jX-0Wb_wQsY")
         hotspot(1154, 735, 318, 318) action OpenURL("http://www.lostdutchmansoftware.com")
-        hotspot(1582, 981, 324, 59) action Show("main_menu")    
+        hotspot(1582, 981, 324, 59) action Jump("restart") 
+
+label qmenu:
+    $ quick_menu = False
+    
+label restart:
+    $ renpy.full_restart()
 
 return

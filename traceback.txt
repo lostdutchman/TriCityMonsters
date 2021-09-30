@@ -1,26 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 71, in script call
-    call credits
-  File "game/script.rpy", line 71, in script call
-    call credits
-ScriptError: could not find label 'credits'.
+  File "game/script.rpy", line 69, in script call
+    call consentscene
+  File "game/consentscene.rpy", line 43, in script
+    call screen credits
+ScriptError: could not find label 'restart'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 71, in script call
-    call credits
-  File "renpy/ast.py", line 1485, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/script.rpy", line 71, in script call
-    call credits
+  File "renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 617, in main
+    run(restart)
+  File "renpy/main.py", line 148, in run
+    renpy.execution.run_context(True)
+  File "renpy/execution.py", line 922, in run_context
+    context.run()
+  File "game/script.rpy", line 69, in script call
+    call consentscene
+  File "game/consentscene.rpy", line 43, in script
+    call screen credits
   File "renpy/script.py", line 918, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'credits'.
+ScriptError: could not find label 'restart'.
 
 Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
 Tri City Monsters 1.0
-Thu Sep 30 12:36:43 2021
+Thu Sep 30 16:26:47 2021
