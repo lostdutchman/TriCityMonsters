@@ -5,8 +5,9 @@ label ch6:
 show bg apartment with dissolve
 show mori shirt neu with moveinright
 
-"The walk to Mori's apartment is only a few blocks and we hurriedly leave the area before any more cops/demons can get in our way."
+"The walk to Mori's apartment is only a few blocks and we hurriedly leave the area before any more cops and/or demons can get in our way."
 "Like before, he seems alert but not stressed, passively scanning the alleys as we pass but his posture remains relaxed and fluid, for the most part."
+
 mori "I gotta admit, I'm kinda surprised you haven't run off screaming."
 
 menu: 
@@ -16,34 +17,35 @@ menu:
         jump ch6_convo1b
 
 label ch6_convo1:
-    hide mori shirt neu with dissolve
-    show mori shirt srs with dissolve
     mori "True.  You must have a few."
     "I scoff."
-    mori "Don't blame me if you don't like what you hear, though.  It's not nearly as dramatic as it seems."
+    pov "I have a few questions about cops flooding into Pitrats.  I have a LOT of questions about monsters and Furries and..."
+    "I guesture vaguely to all of him."
+    "To which he snorts softly and pushes some errant hair out of his face."
+    mori "Alright.  Don't blame me if you don't like what you hear, though.  It's not nearly as dramatic as it seems."
     jump ch6_movingon
 
 label ch6_convo1b:
-    hide mori shirt neu with dissolve
-    show mori shirt smile with dissolve
     pov "I've... never had to deal with anything like that.  There were so many moments where my body just... froze up."
-    hide mori shirt smile with dissolve
-    show mori shirt neu with dissolve
     "Mori deliberates for a moment before he clears his throat in a way that's uncharacteristically self conscious."
-    mori "Well, it kinda would have been better if you had.  Mixing normies and demon bullshit is a recipe for disaster."
+    mori "I wouldn't have blamed you, to be honest.  Mixing normies and demon bullshit is a recipe for disaster."
     mori "But for what it's worth, I'm pretty glad you stuck around, [povname]."
 
 label ch6_movingon:
-    hide mori shirt neu
-    hide mori shirt srs
-    show mori shirt smile
+    "We turn a corner and come upon a solid brick apartment building.  Mori gestures to and external fire escape and leads me up to a second-story balcony."
 
-"We turn a corner and come upon a solid brick apartment building.  Mori gestures to and external fire escape and leads me up to a second-story balcony."
 pov "After all that you're not even going to invite me inside?"
+
+hide mori shirt neu
+show mori shirt smile
+
 mori "Oh, its a {i}mess{/i}, not ready for you to see how I'm living just yet.  Try again next time."
+
 "I shake my head a little exasperatedly but I can't really help but smirk."
+
 pov "You're a mess."
 mori "Pretty much."
+
 "He shrugs nonchalantly and then moves to stand on the brick wall of the balcony.  Like he really can't stand not being reckless for a few short minutes."
 "He's definitely rough around the edges, but I can't help thinking he's pretty kind underneath it all.  He did save me a couple times tonight.  And I'm still wearing his jacket."
 

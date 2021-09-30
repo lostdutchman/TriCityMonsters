@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 370: label expects a non-empty block.
-    label game_start:
-                     ^
+File "game/credits.rpy", line 10: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Sep 30 08:51:18 2021
+Thu Sep 30 12:50:00 2021

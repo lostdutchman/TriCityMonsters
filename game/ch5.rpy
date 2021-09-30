@@ -8,7 +8,7 @@ show mori shirt srs
 mori "Come on."
 pov "There's no fire escape, though, you don't think it's a good idea to go back down into Pitrats, do you?"
 
-mori "Oh {i}noooo{/i}, definitely not.  This whole area is no good.  Those things never travel alone."
+mori "Oh {i}no{/i}, definitely not.  This whole area is no good.  Those things never travel alone."
 
 "I stop dead in my tracks."
 
@@ -157,8 +157,6 @@ mori "And maybe don't watch."
 hide moricg1 with dissolve
 hide mori monster neu
 show bg black
-
-
  
 #################MF CHOICE 5
 menu:
@@ -175,7 +173,7 @@ label ch5_convo1:
 
     "Mori launches directly into the dual threat, heedless of the danger.  With slightly more than a few instants to register now, I can better see him in action."
     "He switches between moving in a hunched, predatory quadrapedal lope and upright, but either way he's fast.  Faster than the demons."
-    "He's able to get in close and sink claws and teeth into them without much issue, breaking past their guard and apparently unphased by either their horrific appearances or god-awful smell."
+    "He's able to get in close and sink claws and teeth into them without much issue, breaking past their guard and apparently unfazed by either their horrific appearances or god-awful smell."
     "His thick tails- split down the center into two independently moving appendages, thrash angrily and the wisps of flame following him cast a ghostly glow on the surrounding surfaces."
     "Honestly, it's only a couple of seconds before the alley is a veritable bloodbath."
     "Mori is a powerhouse like this and he holds nothing back."
@@ -183,7 +181,7 @@ label ch5_convo1:
     hide mori monster neu
     jump ch5_movingon
 
-label ch5_convo21b:
+label ch5_convo1b:
     "The look on his face convinces me to oblige him this.  Even if he's a reckless dumbass who definitely owes me for all of this panic and stress."
     "I have no idea what's going on really, no idea what those things are, why Mori turned into some kind of seven foot tall werecat or whatever the hell..."
     "It feels like a dream.  Or a nightmare, I guess.  Surreal and dangerously unstable."
@@ -193,7 +191,9 @@ label ch5_convo21b:
 label ch5_movingon:
     show mori shirt neu
     "Mori looks at me somewhat guiltily.  I'm glad to see his human face again though."
-    mori "I'm uh... sure you have questions.  My apartment's near here, it'll be safe in case more of those bastards show up."
+    "He comes close to help me stand and gives me a quick once over to make sure I'm not hurt."
+
+mori "I'm uh... sure you have questions.  My apartment's near here, it'll be safer in case more of those bastards show up."
 
 hide mori shirt neu
 show mori shirt smile
@@ -206,20 +206,32 @@ menu:
 
 label ch5_convo2:
     mori "Okay, okay, I did promise"
-    "Without any further needling, he helps me to my feet and this time, we stick to the street level, thank god."
+    "Without any further needling, offers me a hand."
+    "I want to say that I consider for a second but in all honesty, I don't.  Maybe I don't fully trust him but it's hard not to give him the benefit of the doubt."
+    "His hands are calloused and overwarm but, just like in Pitrats, it feels reassuring. "
+    "This time we keep to the stree, thankfully."
     jump ch5_movingon2
 
 label ch5_convo2b:
+    mori "Now hold on..."
     pov "Pull someone out of a demon cop raid, show them your Furry form and then invite them to your place?"
-    "WOW"
-    "He actually looks kind of embarassed for half a second.  But he recovers quick."
+    mori "WOW"
+
     hide mori shirt smile
     show mori shirt hehe
+    
+    "He actually looks kind of embarassed for half a second.  But he recovers quick."
+    
+    hide mori shirt smile
+    show mori shirt hehe
+    
     mori "Is it working?"
     pov "{i}No!{/i}"
 
 label ch5_movingon2:
     "I'm actually scared witless and monster or not, I'm very glad Mori's with me.  He's capable, if nothing else, though his careless nature and willingness to help are definitely ingratiating him to me."
+    "Sure, he's the reason I was exposed to any of this but he also stuck his neck out to help when things got rough."
+    "And maybe I'm kind of getting slightly attached to his lopsided smirk and his loud cackle."
 
 return
 

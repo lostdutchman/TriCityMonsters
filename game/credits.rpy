@@ -19,6 +19,6 @@ screen credits():
         hotspot(1167, 567, 456, 46) action OpenURL("https://www.youtube.com/watch?v=kGf9_EuAswc")
         hotspot(1166, 648, 403, 47) action OpenURL("https://www.youtube.com/watch?v=jX-0Wb_wQsY")
         hotspot(1154, 735, 318, 318) action OpenURL("http://www.lostdutchmansoftware.com")
-        hotspot(1582, 981, 324, 59) action ShowTransient("main_menu")    
+        hotspot(1582, 981, 324, 59) action Show("main_menu")    
 
 return
