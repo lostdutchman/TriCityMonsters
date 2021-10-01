@@ -5,7 +5,6 @@ label ch1:
     scene bg city with dissolve
     play music "audio/city.ogg" fadein 2.0
 
-
     "So.  The {i}city{/i}.  Sure, it has its problems.  Lots of them.  But one of the benefits is that there's stuff to do even late at night."
     "Even very, {i}very{/i} late at night."
     "Insomnia strikes and there's not much I can do besides try to find some distraction.  Sleep will come...  When, I can't say.  But definitely not now and I can only lay around in bed so much."
@@ -31,7 +30,6 @@ label ch1:
     play music "audio/crowd.ogg" fadeout 3.0 fadein 6.0 volume 0.75
 
     "The cacophony dies down after another second, the band finishing their set with a last smashing chord that vibrates through the building and sends a wave of shouts up from the jumping crowd."
-    
     "The band files off stage, replaced by a new group who immediately get to work adjusting equipment.  I know there's going to be a lull for a few minutes while they set up..."
     "I might as well hit up the drink table while I have the chance."
 
@@ -75,7 +73,6 @@ label ch1:
         morix "SO."
 
     hide mori jacket hehe
-
     show mori jacket smile at center
 
     morix "I've seen you here a few times.  You usually come late and stay for the punk rock block."
@@ -85,23 +82,21 @@ label ch1:
     "Still, his tattoos are very intricate and vibrant, disappearing under his jacket- though there's a few wisps of ink at his torn collar, hinting to more going on under his shirt."
     "It is a {i}little{/i} hard to keep from staring"
     "He's watching me with some interest however, so I busy myself with my drink and nod faintly."
+    
     prename "Yeah... I get restless and like to burn off energy here.  It's cheap entertainment and I get to listen to some pretty badass bands."
-
     morix "Yeah?  Have you seen these guys setting up right now?"
 
     "I look and I can't say I recognize them.  There's a big frontman adjusting a mic while a bassist and a guitarist arrange pedals and amps.  The drumset at the back of the stage is empty."
+   
     prename "No, I don't know who they are.  Are they any good?"
 
     hide mori jacket smile
-
     show mori jacket grin at center
     
     "He smiles broadly, his nose crinkling with the expression"
   
     morix "Yeah, actually they're one of my favorites right now.  Good energy."
-
     prename "Seriously?"
-
     morix "Yeah! You'll like them!  Also, their drummer is hot as hell."
 
     "I can't help but snort a little at that. But I am intrigued, if that was actually his goal."

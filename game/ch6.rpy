@@ -1,5 +1,3 @@
-# The game starts here.
-
 label ch6:
 
 stop music fadeout 1.5
@@ -72,7 +70,7 @@ label ch6_convo2:
     jump ch6_movingon2
 
 label ch6_convo2b:
-    mori "For myself?  Not so much.  Dragging normies into this, though...  That's different."
+    mori "For myself?  Not so much.  Dragging innocent people into this, though...  That's different."
 
 label ch6_movingon2:
     "He struggles to find the words for a good long minute, staring at the city open before him and still standing on the ledge while I lean against it, feet firmly on solid ground."
@@ -149,21 +147,23 @@ mori "No, it could be anyone."
 
 mori "If I was a good bootlicker and did what I was told, I would probably have more answers for you.  But I'm not about to drag a bunch of hapless humans into the same loaded deal I was."
 mori "And I frankly don't care how many enforcer demons they send, they're not even that hard to kill."
-
 pov "Mori, how long have things been this way?"
 mori "I don't know, like threeish years maybe."
 
 "He slides off the brick easily and moves just a tiny bit closer, eyeing the way his jacket sits on my shoulders detachedly."
 
 mori "So is this the part where you pretend you're calm but then the second I turn around and lose sight of you I never see you again?"
+
 "There's a lot of things right then that I want to say.  The audacity of this man, I swear-!"
+
 pov "I'm sorry, you think you're scary?  I'm not even a little afraid of you."
 
 hide mori shirt neu
 show mori shirt smile
 
 "Instead of looking irritated at this, he only looks mildly delighted."
-mori "Really.  Not afraid of me but back in Pitrats you looked so scared in that stampeding crowd."
+
+mori "Really?  Not afraid of me but back in Pitrats you looked so scared in that stampeding crowd."
 pov "Mori, you have toe beans.  Some of them are pink."
 
 return

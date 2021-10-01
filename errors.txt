@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/restart.rpy", line 2: expected statement.
-    renpy.full_restart()
-                        ^
+File "game/ch1.rpy", line 113: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Thu Sep 30 16:21:44 2021
+Fri Oct  1 02:59:52 2021

@@ -28,6 +28,7 @@ mori "Just like Black Friday CCTV footage!"
 "But he's caught up in the momentary victory... and doesn't see the next cop lunging at us from the side."
 
 pov "Watch out!"
+
 "I reaffirm my grip on his hand, and yank back suddenly to keep him from charging directly into them."
 
 hide mori jacket chaos
@@ -41,7 +42,6 @@ mori "hehehh"
 "Okay, no, he really is having fun."
 
 pov "They're gonna toss you straight in jail when they catch you!"
-
 mori "Ha, they gotta catch me first."
 
 "His smile is huge and earnest and there's a chaotic glint to his eyes that is, admittedly, a little adrenalizing to see."
@@ -83,9 +83,11 @@ hide mori jacket smile
 show mori jacket srs
 
 pov "Mori!"
+
 "He nearly falls as he's jerked violently downwards.  There's a cop halfway up the ladder, yanking on his leg with the full intent of tearing him right off it."
 "Without even pausing to consider the consequences, Mori wrenches his leg back and kicks down, {i}hard{/i}." 
 "His foot catches the cop in the side of the head and Mori pulls all the way free in the next second."
+
 mori "Let's go, we gotta hurry."
 pov "Are you {i}trying{/i} to get charged with assaulting an officer?  They're gonna throw the book at you if they catch you."
 
@@ -115,7 +117,8 @@ label ch3_convo1b:
     show mori jacket smile
 
     mori "Tonight?  Nothing!"
-    "He flashes me a smirk that I find grudgingly disarming.  Mori's apparent comfort with chaos makes him... a little rougish and while I definitely don't trust him yet, he doesn't really seem all that dangerous."
+    "He flashes me a smirk that I find grudgingly disarming.  Mori's apparent comfort with chaos makes him... a little rougish."
+    "And okay, I definitely don't trust him yet, he doesn't really seem all that dangerous."
    
 label ch3_movingon:
     "And then I'm climbing again, trying to get up to the ground floor before the cops can make a more concerted effort to pull Mori down into the mass of people below."
@@ -142,7 +145,7 @@ show mori jacket smile with moveinbottom
 "As Mori deftly pulls himself up behind me, I can see he looks casually alert but not really stressed, even as he moves to close the hatch."
 "His comfortable confidence is mildly infectious, I suppose, but it also really makes this seem like some kind of game to him."
 
-#################  MF choice 3
+#################  MF choice 3 #####################
 menu:
     "I think he might be insane.":
         $ ending_progress = ending_progress - 1
@@ -159,13 +162,17 @@ show mori jacket srs
 
 "And I make a disconcerting realization."
 "There's no fire escape back down the side of the building."
+
 pov "Shit, how are we gonna get down...?"
 
 hide roof at Position with dissolve
 
 pov "Do you think we can hide up here until the coast is clear?"
+
 "He lets out an irritable {i}tch{/i}."
+
 mori "Nah, it's too late for that."
+
 "I turn to press him for solutions- this is his fault, after all- but I can tell immediately something's not right."
 
 return

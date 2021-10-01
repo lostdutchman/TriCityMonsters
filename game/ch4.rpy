@@ -1,30 +1,35 @@
-# The game starts here.
-
 label ch4:
 
 scene bg roof
 show mori jacket neu at center
 
 "Mori's suddenly tense, watching the ledge to our left with a disconcerting kind of intensity."
- 
 "Instantly, something cold grips my guts.  On stage and running in the chaos below, he'd been all fun and games but now..."
 "I can tell by his posture alone that something serious is up."
+
 mori "..."
+
 "I follow his gaze to try and anticipate the problem and for a moment, I don't see anything."
 "But then I realize that there's a column of steam rising in a weirdly narrow band, growing thicker and denser by the second."
+
 pov "I have a bad feeling about this..."
   
 hide mori jacket neu
 show mori jacket srs
    
 mori "Hey..."
+
 "His voice is low and tense, eyes locked unblinkingly at the half opaque billow of steam."
+
 mori "Do me a favor and stay behind me, okay?"
 mori "No matter what you see."
 pov "What does THAT mean??"
+
 "Mori gives a bitter sounding-laugh."
+
 mori "Sorry, no time right now.  Maybe later.  But stay back, alright?  Cover your eyes."
 mori "I can handle this but you definitely can't."
+
 "OKAY well that's ominous as hell but I don't have time to say much."
    
 play music "audio/demon.ogg" fadeout 2.0 fadein 1.0 
@@ -48,7 +53,7 @@ play sound "audio/jumpscare.ogg"
 
 "As it jerkily pulls itself up over the ledge I can feel my brain straining to classify it."
 "It's humanish in general shape but distorted to monstrous proportions.  Pale, twisted limbs stretch out at gangling angles, and it moves sideways like a crab."
-"The police uniform that once fit this thing's gnarled body hang off it in tatters, unable to contain the horrible limbs and elongated size of it."
+"The police uniform that once fit this thing's gnarled body hangs off it in tatters, unable to contain the horrible limbs and elongated size of it."
 "Long digits curve into claws sharp enough to gouge brick and its slack, vertically slit maw is a horrorshow of teeth like some kind of demonic lamprey..."
 "A low, rattling hiss issues from it with its ragged breaths, along with a quantity of black, ropey saliva."
 
@@ -93,6 +98,7 @@ thing "{size=50}Always so confident.  It's misplaced.{/size}"
 thing "{size=50}But I'm not going back empty handed today.{/size}"
 thing "{size=50}[they!t!c!] [are!t] a paltry offering after two years, Meatsack.{/size}"
 thing "{size=50}Get your priorities straight, Contractbound.  You're not hard to find and not even Hell will wait forever.{/size}"
+
 "The thing, whatever it is, tenses before launching straight at us. The sick nauseating terror locked in my throat intensifies and I finally do let out that scream."
 "I can't react fast enough.  My eyes are locked onto the pinpricks of ember-red set in its face where human eyes once sat."
 "In that instant, I know what it feels like to be a helpless prey animal-"
@@ -197,7 +203,7 @@ label ch4_movingon:
 "Mori actually looks a little shifty for a second."
 "And he actually brings his filthy hand up to his lips while he scans the rooftops again, sucking on one of his knuckles absently."
 
-####### MF Choice 4
+####### MF Choice 4 #################
 menu:
     "{i}Pull his bloody hand away from his mouth{/i}":
         $ ending_progress = ending_progress - 1

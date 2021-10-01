@@ -4,9 +4,13 @@ label ch2:
     show mori jacket grin at center
 
     "He juts out his hand, a demon head tattooed on the back, for a very out-of-place-feeling handshake."
+    
     morix "[povname]."
+   
     "He says it like he's testing it out."
+   
     morix "Nice to officially meet you.  I'm-"
+    
     "But from the stage a deep voice rings out loud and clear over the crowd."
 
     hide mori jacket grin
@@ -47,7 +51,7 @@ label ch2:
     "By the time the frontman takes his cue the whole band is absolutely shredding... with Mori at the back beating the absolute shit out of the drums."
     "He's not just fast, though.  He's {i}good{/i}."
 
-############ MF Choice 1
+############ MF Choice 1 #####################
 menu:
     "Get a closer look.":
         $ ending_progress = ending_progress + 1
@@ -92,7 +96,7 @@ play music "audio/tense.ogg" fadeout 2.0 fadein 1.0 volume 0.65
 "The sight of them inspires panic though, and the people on the floor are now frantically surging around the cops and towards the very narrow stairs."
 "Over the sudden chaos, shouts ring out ordering the fleeing punks to get up against the walls."
 
-############ MF Choice 2
+############ MF Choice 2 ########################
 menu:
     "Try to comply.":            
         jump ch2_convo2

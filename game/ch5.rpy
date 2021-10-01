@@ -1,18 +1,14 @@
-# The game starts here.
-
 label ch5:
 
 show mori shirt srs
 
 mori "Come on."
 pov "There's no fire escape, though, you don't think it's a good idea to go back down into Pitrats, do you?"
-
 mori "Oh {i}no{/i}, definitely not.  This whole area is no good.  Those things never travel alone."
 
 "I stop dead in my tracks."
 
 pov "What?"
-
 mori "There's more of them around here, that's why we gotta leave."
 
 "To his credit he sounds marginally more urgent, though not nearly enough, in my opinion."
@@ -35,7 +31,6 @@ hide mori shirt neu
 show mori shirt smile
 
 mori "I can jump it."
-
 pov "No you can't, that's like fifteen feet and we're five stories up!  And you think you're gonna make that holding me or something!?"
 
 hide mori shirt smile
@@ -68,9 +63,7 @@ play music "audio/tension.ogg" fadeout 2.0 fadein 1.0 volume 0.20
 "Its features are just as repulsive and there's shreds of a cop's uniform...  but this one is different..."
 
 thing "{size=50}You're trying our patience, Contractbound.{/size}"
-
 mori "Put [them!t] down or I'll eviscerate you!"
-
 thing "{size=50}Arrogant as always.{/size}"
 
 "It makes a wheezy sound and I realize after a numb second that it's a laugh, all the while its claws tighten in my shoulder like knives."
@@ -111,7 +104,6 @@ play sound "audio/thump.ogg" volume 0.5
 "Somehow, his human features are still slightly recognizable even in that feral, predatory face."
 "How...?"
 "But then he's obscured by the rim of the building as I plummet past it, falling towards certain death and the concrete below."
-
 "A blurred shape launches off the rooftop and onto the fire escape on the other side of the alley with apparently zero effort."  
 "The steel whines loudly and warps under its weight as the feline shape darts further downwards."
 "Hot on its twin, thick tails, the skittering shapes of demons come charging down behind him, tearing up concrete and denting a metal awning with a loud squeal of protest."
@@ -143,7 +135,7 @@ play sound "audio/punch.wav"
 "Mori leans in, angles his head, and sinks huge fangs into the demon's distended throat."  
 "The smell of sulfur intensifies a hundredfold as Mori yanks back and electric blue blood sprays out of his kill."
 "The noise this thing makes is agonized and hellish but Mori's already moving again, adjusting my mostly-deadweight as the demon spasms..."
-"and boiling, glowing blood spills out of it in torrents.  The reek is overpowering."
+"And boiling, glowing blood spills out of it in torrents.  The reek is overpowering."
 "In an instant, it's consumed by a flash of light- the same one I caught the end of before on the rooftop- and its corpse is gone, the neon blue blood spatters going dim and darkening rapidly."
 "But there's still two of those things right on our asses."
 "One reaches out to sink claws into Mori's unprotected side but a sudden pivot leaves it out of range, though several tufts of thick, silver fur disperse into the night."
@@ -171,7 +163,7 @@ mori "And maybe don't watch."
 hide moricg1 with dissolve
 show bg black
  
-#################MF CHOICE 5
+#################MF CHOICE 5 ########################
 menu:
     "{i}Watch Mori fight.{/i}":
         $ ending_progress = ending_progress + 1
@@ -246,7 +238,7 @@ label ch5_movingon2:
     hide mori shirt smile
     show mori shirt neu
 
-    "I'm actually scared witless and ven if Mori is some kind of monster himself, I just don’t find him threatening.  In fact, quite the opposite..."
+    "I'm actually scared witless and even if Mori is some kind of monster himself, I just don’t find him threatening.  In fact, quite the opposite..."
     "Sure, he's the reason I was exposed to any of this but he also stuck his neck out to help when things got rough."
     "And maybe I'm kind of getting slightly attached to his lopsided smirk and his loud cackle."
 

@@ -1,41 +1,13 @@
-# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define pov = Character("[povname]", color="#FFFFFF")
-define morix = Character("Some Dude", color="#0095ac")
-define mori = Character("Mori", color="#0095ac")
-define prename = Character("", color="#FFFFFF", what_prefix='"', what_suffix='"')
-define frontman = Character ("Band Frontman", color="#e78801")
+define pov = Character("[povname]", color="#FFFFFF",  what_prefix='"', what_suffix='"')
+define morix = Character("Some Dude", color="#0095ac", what_prefix='"', what_suffix='"')
+define mori = Character("Mori", color="#0095ac", what_prefix='"', what_suffix='"')
+define prename = Character("---", color="#FFFFFF", what_prefix='"', what_suffix='"')
+define frontman = Character ("Band Frontman", color="#e78801", what_prefix='"', what_suffix='"')
 define thing = Character ("THING", what_font="fonts/HauntAOE.ttf", color="#960000", what_font_size = 72)
 default povname = "Emcee"
-
-image splash = "splash.png"
-
 default ending_progress = 0
 default same_name_flag = False
-
-# Flags
-# Make as many of these as you need to track if the MC has done a thing, or has a thing in their possesion. 
-# Initialize them all as False (its case sensitive)
-#
-#default book = False
-#
-# When the MC picks up the book you would use
-# $ book = True
-#
-# When the book is needed you can use an if statement
-#if book:
-#
-# Below is how you track progress toward a specific ending
-# Negitive values bring ending toward XXXX positive values bring ending toward XXXX
-#$default ending_progress = 0
-# 
-# Increment or decrement the value like this
-# $ ending_progress = ending_progress + 1
-
-
+image splash = "splash.png"
 
 label splashscreen:
     scene black
@@ -67,7 +39,5 @@ label start:
     call ch6
 
     call consentscene
-
-    #call credits 
 
     return
