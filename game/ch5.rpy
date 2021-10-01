@@ -138,7 +138,7 @@ play music "audio/tense.ogg" fadeout 1.0 fadein 2.0
 "He grabs the gnarled mess of demon appendage as it moves in, his own claws digging in tight and he {i}pulls{/i}.  The demon moves in close enough for its blue cop uniform to drag against me." 
 
 show bg alley with hpunch
-play sound "audio/punch.ogg"
+play sound "audio/punch.wav"
 
 "Mori leans in, angles his head, and sinks huge fangs into the demon's distended throat."  
 "The smell of sulfur intensifies a hundredfold as Mori yanks back and electric blue blood sprays out of his kill."

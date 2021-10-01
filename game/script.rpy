@@ -68,6 +68,6 @@ label start:
 
     call consentscene
 
-    call credits 
+    #call credits 
 
     return

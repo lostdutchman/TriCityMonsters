@@ -1,4 +1,3 @@
-
 label endingresult:
 
 if ending_progress > 0:
@@ -65,8 +64,9 @@ label monster:
     "He makes an indulgent noise and shrugs, apparently satisfied with that."
 
     show bg black
+    call screen credits
+    $ renpy.pause ()
 
-return
 
 label human:
     "Mori leans in immediately and in the next instant his mouth is on mine.  His motions are confident (I mean, he does everything with an absurd amount of confidence)."
@@ -81,6 +81,6 @@ label human:
     mori "You think I'm good enough to get groupies?"
     pov "Nevermind."
     "He flashes me a smirk that really just tells me he loves the attention and is fully prepared to shamelessly bask in it."
-
-
-return
+    
+    call screen credits
+    $ renpy.pause ()
