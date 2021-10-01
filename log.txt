@@ -1,4 +1,4 @@
-Fri Oct  1 03:59:07 2021
+Fri Oct  1 04:00:49 2021
 Windows-7-6.1.7601-SP1
 Ren'Py 7.4.8.1895
  
@@ -16,7 +16,7 @@ Loading analysis data took 0.00s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Sam\\AppData\\Roaming/RenPy/backups\\SpooktoberJam':
-Dump and make backups. took 0.11s
+Dump and make backups. took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
@@ -26,7 +26,7 @@ nvdrs: Disabled thread optimizations.
 Creating interface object took 0.24s
 Cleaning stores took 0.00s
 Init translation took 0.05s
-Build styles took 0.00s
+Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.04s
 Save screen analysis took 0.08s
