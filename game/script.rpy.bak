@@ -24,20 +24,20 @@ label splashscreen:
 label start:
     stop music fadeout 1.0
 
-    call title from _call_title
+    call title
     
-    call ch1 from _call_ch1
+    call ch1
       
-    call ch2 from _call_ch2
+    call ch2
 
-    call ch3 from _call_ch3
+    call ch3
 
-    call ch4 from _call_ch4
+    call ch4
 
-    call ch5 from _call_ch5
+    call ch5
 
-    call ch6 from _call_ch6
+    call ch6
 
-    call consentscene from _call_consentscene
+    call consentscene
 
     return

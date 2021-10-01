@@ -32,7 +32,7 @@ mori "What d'ya think?"
 
 menu: 
     "{i}Make out with Mori{/i}":
-        call endingresult from _call_endingresult
+        call endingresult
     "Sorry dude, I'll pass tonight.":
         jump epilogue
 

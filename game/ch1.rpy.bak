@@ -106,10 +106,10 @@ label ch1:
 
     morix "What's your name?  I feel like I see you here a lot."
 
-    call nameselection from _call_nameselection
+    call nameselection
 
     label pronoun:
 
-        call pronounselection from _call_pronounselection
+        call pronounselection
 
     return
