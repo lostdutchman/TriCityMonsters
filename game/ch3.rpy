@@ -1,4 +1,6 @@
 label ch3:
+    image pitratsin = "images/pitratsin.png"
+    image roof = "images/roof.png"
 
 hide mori jacket srs
 show mori jacket smile
@@ -15,6 +17,8 @@ show mori jacket chaos
 
 "Actually, there's wild gesticulating and I can see the nearest cop's mouth move.  I can't make out his words over the noise but he's looking right at {i}Mori{/i}."
 "And now me, who he's dragging along bodily."
+
+show pitratsin at Position(xpos=0.2, ypos=0.6) with dissolve
 
 mori "Stay with me, you go down in a crowd like this you'll get hurt!"
 mori "Just like Black Friday CCTV footage!"
@@ -42,6 +46,9 @@ pov "They're gonna toss you straight in jail when they catch you!"
 mori "Ha, they gotta catch me first."
 
 "His smile is huge an earnest and there's a chaotic glint to his eyes that is, admittedly, a little adrenalizing to see."
+
+hide pitratsin with dissolve
+
 "At the staircase there's a solid wall of bottlenecked people and- without slowing at all- Mori suddenly veers to the left, moving away from his bandmates and pulling me with him."
 "He dodges around sound equipment and the plastic drink table with ease while I stagger along in his wake.  He lets go of my hand to throw his shoulder against a huge amp in the corner."
 "With a slight grunt, it shifts and reveals a small metal ladder bolted into the concrete wall."
@@ -71,7 +78,7 @@ pov "What about your bandmates?  They were headed towards the main entrance!"
 mori "They'll be fine, this isn't the first run in they've had.  Besides, they're after-"
 
 show bg venue with vpunch
-play sound "audio/thump.ogg"
+play sound "audio/punch.wav"
 
 hide mori jacket smile
 show mori jacket srs
@@ -126,10 +133,13 @@ show bg shop with fade
 "Those handles feel like they've never been opened before and Mori isn't particularly bulked up."
 
 show bg roof with fade
-play music "audio/roof.ogg" fadeout 1.0 fadein 0.5
+play music "audio/roof.ogg" fadeout 1.0 fadein 1.25
 
 "He drops each one closed behind us and after the fourth or fifth one, the series of drab, dark ceilings opens up to a clouded night sky."
 "While the fresh air is a relief on my sweaty skin and general nervousness, my brain is assaulting me with the image of us trapped on the roof and surrounded by angry cops."
+
+show mori jacket smile with moveinbottom
+
 "As Mori deftly pulls himself up behind me, I can see he looks casually alert but not really stressed, even as he moves to close the hatch."
 "His comfortable confidence is mildly infectious, I suppose, but it also really makes this seem like some kind of game to him."
 
@@ -151,6 +161,9 @@ show mori jacket srs
 "And I make a disconcerting realization."
 "There's no fire escape back down the side of the building."
 pov "Shit, how are we gonna get down...?"
+
+hide roof at Position with dissolve
+
 pov "Do you think we can hide up here until the coast is clear?"
 "He lets out an irritable {i}tch{/i}."
 mori "Nah, it's too late for that."

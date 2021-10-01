@@ -2,8 +2,12 @@
 
 label ch6:
 
+stop music fadeout 1.5
+hide mori shirt neu
 show bg apartment with dissolve
 show mori shirt neu with moveinright
+
+play music "audio/roof.ogg" fadein 1.0 volume 1.5
 
 "The walk to Mori's apartment is only a few blocks and we hurriedly leave the area before any more cops and/or demons can get in our way."
 "Like before, he seems alert but not stressed, passively scanning the alleys as we pass but his posture remains relaxed and fluid, for the most part."
@@ -50,7 +54,7 @@ mori "Pretty much."
 "He's definitely rough around the edges, but I can't help thinking he's pretty kind underneath it all.  He did save me a couple times tonight.  And I'm still wearing his jacket."
 
 hide mori shirt smile
-show mori shirt srs
+show mori shirt neu
 
 pov "So... this is common for you?  Getting chased by cops that are actually monsters in disguise?"
 mori "Listen, I don't want to beat a dead horse but think really carefully about whether you want to know the truth.  You can't unhear it."
@@ -71,7 +75,10 @@ label ch6_convo2b:
 
 label ch6_movingon2:
     "He struggles to find the words for a good long minute, staring at the city open before him and still standing on the ledge while I lean against it, feet firmly on solid ground."
-    
+
+hide mori shirt neu
+show mori shirt srs
+
 mori "The world's a scary place full of desperate people, you know?"
 pov "So is that you?  Are you something that makes the world scarier?  Or are you just desperate?"
 "He chuckles lowly, his pitch low enough to forcibly remind me of him talking while in that animal form."
@@ -97,6 +104,10 @@ mori "And then I was healed.  I could move, I could think properly.  Bones snapp
 pov "A cat.  {i}Some{/i} kind of cat, anyway.  Why, though?"
 mori "The contract brought me back to life and turned me into a demon.  That's the demon body I was 'blessed' with."
 "Mori does air quotes and rolls his dark eyes somewhat irritably."
+
+hide mori shirt srs
+show mori shirt neu
+
 mori "Have you ever heard the word kaibyo?  Or bakeneko?"
 pov "No, is that what it's called?"
 mori "There's a lot of monster cats but those seem like they're the closest match.  Cats that can change shape, talk to spirits..."
@@ -121,8 +132,8 @@ mori "Or lead them into traps to get preyed on and forced into loaded bargains b
 pov "You {i}what{/i}!?"
 "He actually laughs at my reaction"
 
-hide mori shirt srs with dissolve
-show mori shirt neu with dissolve
+hide mori shirt srs
+show mori shirt neu
 
 mori "Oh, no, sorry.  I'm totally AWOL, I don't do anything for them.  I filled a contract once and after I realized what they were asking I just refused to work."
 mori "Thats why the enforcers are always out here harping on about me being Contractbound and not fulfilling my end of the deal.  Fuck them though, I'm not doing that."

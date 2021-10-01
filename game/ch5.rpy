@@ -44,6 +44,8 @@ show mori shirt srs
 
 "I watch him open his mouth to argue but the humor leaves his eyes in an instant and his whole demeanor shifts to something alarmed."
 
+play music "audio/demon.ogg" fadeout 1.0 fadein 1.0
+
 mori "[povname]!!"
 
 "Stupidly, I follow his shocked gaze and look down the length of the building stretched out beneathe my scuffed shoes."
@@ -51,9 +53,16 @@ mori "[povname]!!"
 play sound "audio/jumpscare.ogg"
 
 "There's another horrifying shape rushing up at us, claws gouging into the wall beneath my feet as it clambers up towards me at a terrifying speed."
+
+play sound "audio/punch.wav"
+show bg roof with vpunch
+
 "It hits me with the force of a speeding car and my feet leave the ground.  My guts drop but it all happens so fast I just can't react, even as the sky and Mori's ashen face wheel dizzyingly."
 "Something stops my fall before I hit the rooftop again and I blink numbly, watching my feet dangle maybe ten or so feet above the concrete."
 "And then my brain kicks into gear and my insides are a cascade of ice."
+
+play music "audio/tension.ogg" fadeout 2.0 fadein 1.0 volume 0.20
+
 "I'm being held up like a broken toy by another twisted, grotesque shape.  Claws are gripping me tight, tight enough to puncture."
 "The smell of sulfur and the wisps of steam are choking me and a painful gag makes my body spasm in its crushing grasp."
 "Worst of all... I can tell almost immediately that this one is {i}not{/i} the same one as before..."
@@ -74,13 +83,13 @@ thing "{size=50}Arrogant as always.{/size}"
 "No one can save us.  This is it, this is how I'm gonna die."
 "The world is a fucked up place."
 
-play sound "audio/jumpscare.ogg" volume 0.5
+play sound "audio/thump.ogg" volume 0.5
 
 "Mori hunches suddenly, doubling over and nearly dropping to his knees.  I didn't see him take a hit and I frantically try to discern if he's been wounded-"
 "But when he rights himself...  He's not {i}Mori{/i} anymore."
 
 hide mori shirt srs with dissolve
-show mori monster neu
+show mori monster neu with dissolve
 
 "Something large... catlike but bipedal stands in his place, something with heavy shoulders and thick fur.  Something haloed by streaks of blue fire."
 
@@ -89,6 +98,9 @@ pov "What the {i}fuck{/i}...?"
 "A deep, visceral growl rips up its throat and then it lunges."
 "It charges the demon holding me over the ground and moves much too fast to be stopped in time.  It crashes into the demon in a flurry of claws and teeth..." 
 "Its huge split tails thrashing and ears flattening back against its skull as it tears into vulnerable flesh."
+
+play sound "audio/thump.ogg" volume 0.5
+
 "The reactionary movement in the demon is {i}violent{/i} and without warning, I'm flung sideways."
 
 "My mouth opens to scream but just like in a nightmare, nothing past a weak gasp issues out of my frozen lungs."
@@ -117,13 +129,16 @@ show bg alley with hpunch
 
 "Something impacts us from the side hard enough to smash Mori into the far wall.  I can feel him shift so he hits the wall back-first, keeping me from splattering across the surface."
 "And given the level of damage his body does to the brick, that's exactly what would have happened to me."
+
+play music "audio/tense.ogg" fadeout 1.0 fadein 2.0
+
 "The demons are bearing down on us and the nearest one takes another swing with its horrible, twisted limb."
 "Mori's already on the move, hunching low as the threat comes with range of delivering a killing blow.  Mori's fast as hell, however."
 "I watch stupidly as his overbright, vertically slitted eyes dilate with pure bestial focus."
 "He grabs the gnarled mess of demon appendage as it moves in, his own claws digging in tight and he {i}pulls{/i}.  The demon moves in close enough for its blue cop uniform to drag against me." 
 
 show bg alley with hpunch
-###SFX TEAR?
+play sound "audio/punch.ogg"
 
 "Mori leans in, angles his head, and sinks huge fangs into the demon's distended throat."  
 "The smell of sulfur intensifies a hundredfold as Mori yanks back and electric blue blood sprays out of his kill."
@@ -135,8 +150,7 @@ show bg alley with hpunch
 "We hit the ground hard enough to wind but not hard enough to injure and Mori rolls instantly, pushing me to my back and bracing over me protectively, ears swivelled back and sharp eyes tracking the threats."
 
 show moricg1 with dissolve
-$ renpy.pause ()
-#####music change
+hide mori monster neu
 
 mori "You okay?"
 
@@ -155,7 +169,6 @@ mori "And maybe don't watch."
 "He moves before I can react- there's no time to say anything with a demon free-for-all about to happen."
 
 hide moricg1 with dissolve
-hide mori monster neu
 show bg black
  
 #################MF CHOICE 5
@@ -178,7 +191,7 @@ label ch5_convo1:
     "Honestly, it's only a couple of seconds before the alley is a veritable bloodbath."
     "Mori is a powerhouse like this and he holds nothing back."
 
-    hide mori monster neu
+    hide mori monster neu with dissolve
     jump ch5_movingon
 
 label ch5_convo1b:
@@ -189,9 +202,11 @@ label ch5_convo1b:
     "There's a flash against my closed eyelids and the momentary intesnifying smell of sulfur, before it fades entirely, tells me Mori's done."
 
 label ch5_movingon:
-    show mori shirt neu
+    show mori shirt neu with dissolve
     "Mori looks at me somewhat guiltily.  I'm glad to see his human face again though."
     "He comes close to help me stand and gives me a quick once over to make sure I'm not hurt."
+
+play music "audio/myst.ogg" fadeout 2.0 fadein 1.0 volume 0.5
 
 mori "I'm uh... sure you have questions.  My apartment's near here, it'll be safer in case more of those bastards show up."
 
@@ -222,13 +237,15 @@ label ch5_convo2b:
     
     "He actually looks kind of embarassed for half a second.  But he recovers quick."
     
-    hide mori shirt smile
-    show mori shirt hehe
-
     mori "Is it working?"
     pov "{i}No!{/i}"
 
 label ch5_movingon2:
+
+    hide mori shirt hehe
+    hide mori shirt smile
+    show mori shirt neu
+
     "I'm actually scared witless and monster or not, I'm very glad Mori's with me.  He's capable, if nothing else, though his careless nature and willingness to help are definitely ingratiating him to me."
     "Sure, he's the reason I was exposed to any of this but he also stuck his neck out to help when things got rough."
     "And maybe I'm kind of getting slightly attached to his lopsided smirk and his loud cackle."

@@ -124,7 +124,7 @@ label ch2_convo2b:
     "There are people everywhere, the tiny venue is suddenly extremely dangerous in its smallness.  The crowd's a full on stampede at this point and I try my best to keep up or risk falling."
    
     show bg venue with hpunch
-    play sound "audio/thump.ogg"
+    play sound "audio/punch.wav"
 
     "Something hits me hard in the lower back and I can feel myself start to overbalance."
 

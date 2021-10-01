@@ -5,9 +5,17 @@ show mori shirt hehe
 
 mori "Alright, so you're not scared."
 pov "Of you?  Not so much.  Of demons pretending to be cops and trying to harvest people for some... nefarious purpose?  Some bigger, nebulous bad thing turning people into demons?  Maybe."
+
+hide mori shirt hehe
+show mori shirt neu
+
 "Mori thinks about this for a second and then nods."
 mori "I'm not super proud of what I am so it... it's nice to know I'm not as horrifying as it feels to turn into that thing."
 pov "You were a {i}little{/i} scary.  But you've been consistently trustworthy so far... so past the shock?  No, I wasn't really scared."
+
+hide mori shirt neu
+show mori shirt hehe
+
 "He slinks a little closer and leans up against the wall next to me."
 mori "You're pretty tough.  And good in a little chaos."
 "He leans in a little further and I think I know where this is going.  My face heats up a little before I can quite get a hold of myself but hopefully the lighting is so dim I don't give myself away."

@@ -12,6 +12,10 @@ label monster:
     pov "... Hey.  Can you..."
     "Mori breaks away, looking pretty pleased with himself.  Just from the smug little line of his mouth I can tell he's very geared up to oblige me so I decide to push forward."
     "Maybe it's a little much considering we barely know each other but his recklessness is rubbing off on me."
+
+    hide mori shirt hehe
+    show mori shirt neu
+
     pov "Do you think you could... show me the cat form, the kaibyo again?"
     "Mori blinks once... twice... staring at me as though that was the absolute last thing he expected to hear."
     pov "You don't have to."
@@ -22,7 +26,7 @@ label monster:
     "I oblige and turn around while Mori scans the street below for an instant.  Then I can hear him take several deep, ragged breaths."
     "While curiosity gnaws at me I stay firmly put.  It's an earnest request and I find myself wanting him to trust me."
 
-    show mori monster neu
+    show mori monster neu with dissolve
 
     "Mori makes a noise, a low grunt and I take it as a signal to turn."
     "Immediately, I have to adjust where my eyes settle.  The figure in front of me now is significantly taller.  All the scant details I'd gathered from the the confrontation in the alley sharpen into starker clarity."
@@ -51,15 +55,18 @@ label monster:
     mori "[povname], you're {i}sure{/i} you want this?"
     pov "You literally asked if I wanted to make out now you're getting nervous?"
     mori "Well, I didn't expect you to be into {i}this{/i}."
-    pov "I've never made out with a demon, so I don't actually know.  But it sounds pretty exciting."
+    pov "That doesn't sound like you at all."
     "He makes an indulgent noise and shrugs, apparently satisfied with that."
     "And then he leans in all the way."  
     "I'm surprised when he bypasses my mouth and goes straight for my neck, gently scraping teeth along the exposed flesh there."  
     "It makes me weak but then the accompanying hungry growl that reverberates up his throat makes my fingers curl tightly against his furry body."
     "Without direction he slots a thick thigh between mine and already the heat is stifling and I'm gasping under him."
-    "If nothing else, at least insomnia meant that tonight I'd meet a fun, if reckless and charmingly cocky, monster."
+    pov "I've never made out with a demon, so I don't actually know.  But it sounds pretty exciting."
+    "He makes an indulgent noise and shrugs, apparently satisfied with that."
 
     show bg black
+
+return
 
 label human:
     "Mori leans in immediately and in the next instant his mouth is on mine.  His motions are confident (I mean, he does everything with an absurd amount of confidence)."

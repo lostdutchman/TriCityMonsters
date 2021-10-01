@@ -36,12 +36,12 @@ play music "audio/demon.ogg" fadeout 2.0 fadein 1.0
 "But then I catch the tense ripple up Mori and follow his intense stare back towards the pigeon-shit-speckled ledge."
 "A thrill of horror drops through my guts and I'm absolutely {i}paralyzed{/i}."
 
-play sound "audio/jumpscare.ogg" volume 0.5
+play sound "audio/jumpscare.ogg"
 
 "There's a person."
 "A cop.  Clawing their way onto the roof."
 "The sulfuric fog is rising off them in visible, yellowish wafts and the flashing lights from the police cars below cast its twisted features into stark, horrifying contrast."
-"It's not a cop, it's not a person..."
+"It's not a cop, it's not a person...  Fuck, it must be seven or eight feet tall..."
 "I gasp before I can stop myself and Mori adjusts the way his feet are braced so he's firmly in front of me."
 "Whatever this thing is... it clawed its way up a five-story building on its own power."
 
@@ -59,6 +59,8 @@ mori "Ugh..."
 
 mori "Hey."
 mori "Breathe.  You'll pass out."
+
+play music "audio/tension.ogg" fadeout 2.0 fadein 1.0 volume 0.20
 
 "{i}Damn{/i}, his voice is jarringly calm... even if he doesn't turn his eyes away from the horror or uncoil."
 "The thing takes a deep breath and then..."
@@ -120,6 +122,7 @@ hide mori monster shadow with dissolve
 
 "The city refocuses in front of me in the next instant, lights like a small starfield popping back into existence just past the dark ledge."
 
+play music "audio/myst.ogg" fadeout 2.0 fadein 1.0 
 show mori jacket srs with dissolve
 
 mori "Shit."
@@ -130,12 +133,13 @@ mori "You okay?  You hit the ground a little hard..."
 mori "Here."
 
 hide mori jacket srs with dissolve
-show mori shirt srs
+show mori shirt srs with dissolve
 
 "Something's placed on my shoulders.  Something heavy that smells like... cheap detergent and body heat."
 "It's Mori's jacket, heavy with patches and studs but now that I've actually been offered warmth I realize I was freezing."
 "And shaking, actually.  Like a leaf."
 
+play music "audio/roof.ogg" fadeout 2.0 fadein 1.0 volume 1.5
 hide mori shirt srs
 show mori shirt smile
 

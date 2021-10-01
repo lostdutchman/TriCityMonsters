@@ -21,8 +21,8 @@ screen credits():
         hotspot(1582, 981, 324, 59) action Jump("restart") 
 
 label qmenu:
-    $ quick_menu = False
-    
+    $ quick_menu=False
+
 label restart:
     $ renpy.full_restart()
 
