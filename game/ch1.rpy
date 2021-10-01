@@ -8,7 +8,7 @@ label ch1:
 
     "So.  The {i}city{/i}.  Sure, it has its problems.  Lots of them.  But one of the benefits is that there's stuff to do even late at night."
     "Even very, {i}very{/i} late at night."
-    "Insomnia knocks and there's not much I can do besides try to find some distraction.  Sleep will come...  When, I can't say.  But definitely not now and I can only lay around in bed so much."
+    "Insomnia strikes and there's not much I can do besides try to find some distraction.  Sleep will come...  When, I can't say.  But definitely not now and I can only lay around in bed so much."
     "There's this place... a music venue.  It's a couple of blocks from my flat. It caters to punks mostly, though I did catch a couple goth bands there last weekend."
     
     scene bg alley with dissolve
@@ -30,22 +30,22 @@ label ch1:
     
     play music "audio/crowd.ogg" fadeout 3.0 fadein 6.0 volume 0.75
 
-    "The cacophany dies down after another second, the band finishing their set with a last smashing chord that vibrates through the building and sends a wave of shouts up from the jumping crowd."
+    "The cacophony dies down after another second, the band finishing their set with a last smashing chord that vibrates through the building and sends a wave of shouts up from the jumping crowd."
     
     "The band files off stage, replaced by a new group who immediately get to work adjusting equipment.  I know there's going to be a lull for a few minutes while they set up..."
     "I might as well hit up the drink table while I have the chance."
 
     show mori jacket drunk with moveinright
 
-    "Just as I'm about to reach the it, some dude barrels in front of me, slaps down a crushed wad of singles and takes two plastic cups of nearly stale beer without a word to the vendor."
-    "He drinks both in a matter of seconds and lets out he most theatrical {i}AHHHHHH{/i} I've literally ever heard."
+    "Just as I'm about to reach it, some dude barrels in front of me, slaps down a crushed wad of singles and takes two plastic cups of nearly stale beer without a word to the vendor."
+    "He drinks both in a matter of seconds and lets out the most theatrical {i}AHHHHHH{/i} I've literally ever heard."
     "He turns around and it's suddenly clear he must have just gotten out of the mosh pit.  He's... very sweaty."  
     "Dark hair is plastered to his forehead and his face is flushed with (I'm assuming) more exertion than alcohol."
 
     morix "Oh, my bad.  Did I cut in front of you?"
 
     hide mori jacket drunk
-    show mori jacket srs at center
+    show mori jacket hehe at center
 
     "He smiles and it's actually relatively earnest-looking.  He might be oblivious but he doesn't seem like an asshole."
 
@@ -60,7 +60,7 @@ label ch1:
     label ch1_convo1:
         "He nods and quickly grabs me my own very appetizing cup of almost-room-temperature beer."
         morix "That's the good shit, right?"
-        "His tone is rife with sarcarsm but at the same time, if you drink at events like this room temperature, flat beer is usually the most readily available."
+        "His tone is rife with sarcasm but at the same time, if you drink at events like this room temperature, flat beer is usually the most readily available."
         prename "Warm beer keeping you hydrated in the pit?"
         morix "No, but that won't stop me.  Pitrats is only Pitrats if there's enough rats in the pit, y'know?"
         
@@ -81,8 +81,9 @@ label ch1:
     morix "I've seen you here a few times.  You usually come late and stay for the punk rock block."
 
     "He turns to look at me fully, crossing his heavily tattooed arms in front of his chest."  
-    "I can see he's a bit more muscular than he looks from further away but I do my best not to get caught staring like a dumbass."
+    "I can see he's a bit more muscular than he looks from afar but I do my best not to get caught staring like a dumbass."
     "Still, his tattoos are very intricate and vibrant, disappearing under his jacket- though there's a few wisps of ink at his torn collar, hinting to more going on under his shirt."
+    "It is a {i}little{/i} hard to keep from staring"
     "He's watching me with some interest however, so I busy myself with my drink and nod faintly."
     prename "Yeah... I get restless and like to burn off energy here.  It's cheap entertainment and I get to listen to some pretty badass bands."
 
@@ -101,18 +102,14 @@ label ch1:
 
     prename "Seriously?"
 
-    morix "Yeah! You'll like them!  Also, their drummer is hot as fuck."
+    morix "Yeah! You'll like them!  Also, their drummer is hot as hell."
 
-    "I can't help but snort a little at that."
+    "I can't help but snort a little at that. But I am intrigued, if that was actually his goal."
 
     hide mori jacket grin
-
-    show mori jacket smile at center
+    show mori jacket smile
 
     morix "What's your name?  I feel like I see you here a lot."
-
-    scene bg venue
-    show mori jacket smile at center
 
     call nameselection
 

@@ -29,11 +29,12 @@ mori "I can handle this but you definitely can't."
    
 play music "audio/demon.ogg" fadeout 2.0 fadein 1.0 
 
-"There's a horrible grating sound coming from the building ledge and before my eyes can focus on the newest danger, the wind shifts and the smell hits me like a wall."
+"There's a horrible grating sound coming from the building ledge and before my eyes can focus on the newest danger, the wind shifts and the smell hits me like a brick wall."
 "It's {i}fetid{/i}."
-"Like wet, rotting eggs.  Like sulfur."
-"My eyes water almost instantly as the putrid steam billows thicker, passing over Mori and I like a rancid cloud."
-"But then I catch the tense ripple up Mori and follow his intense stare back towards the pigeon-shit-speckled ledge."
+"Like wet, rotting eggs."
+"Like sulfur."
+"My eyes water almost instantly as the putrid steam billows thicker, passing over Mori and me like a rancid cloud."
+"But then I catch the tense ripple up Mori and follow his intense stare back towards the uneven ledge."
 "A thrill of horror drops through my guts and I'm absolutely {i}paralyzed{/i}."
 
 play sound "audio/jumpscare.ogg"
@@ -47,15 +48,15 @@ play sound "audio/jumpscare.ogg"
 
 "As it jerkily pulls itself up over the ledge I can feel my brain straining to classify it."
 "It's humanish in general shape but distorted to monstrous proportions.  Pale, twisted limbs stretch out at gangling angles, and it moves sideways like a crab."
-"The police uniform that once fit this thing's gnarled body hanging off it in tatters, unable to contain the horrible limbs and size of it."
+"The police uniform that once fit this thing's gnarled body hang off it in tatters, unable to contain the horrible limbs and elongated size of it."
 "Long digits curve into claws sharp enough to gouge brick and its slack, vertically slit maw is a horrorshow of teeth like some kind of demonic lamprey..."
-"A low, rattling hiss issues from it with its ragged breaths, along with a quanity of black, ropey saliva."
+"A low, rattling hiss issues from it with its ragged breaths, along with a quantity of black, ropey saliva."
 
 mori "Ugh..."
 
 "I can feel a scream rising up my chest but it catches in my throat and I can't... I can't do anything..."
 "This can't be real...  It can't be..."
-"The twisted, mangled mess of limbs crawls up onto the rooftop sideways and skittery.  It's huge too, stretched out and so malformed my brain feels like it's shorting out just looking at it."
+"The mangled mess of limbs crawls up onto the rooftop sideways and skittery.  It's huge too, stretched out and so malformed my brain feels like it's shorting out just looking at it."
 
 mori "Hey."
 mori "Breathe.  You'll pass out."
@@ -82,7 +83,7 @@ thing "{size=50}You signed a contract!{/size}"
 thing "{size=50}You have not delivered!!{/size}"
 
 "The thing's melting, dripping face angles for a second and it makes a noise like a huge dog sniffing tentatively."
-"It shifts slightly and- recognizable facial features or no- I can tell it's staring at me."
+"It shifts slightly and- recognizable facial features or no- I can tell it's staring straight at me."
 "Honestly, I have no idea how I keep from fainting on the spot.  My heart feels like it's about to explode."
 
 thing "{size=50}Unless that's supposed to be your idea of payment.{/size}"
@@ -108,13 +109,13 @@ show bg black with dissolve
 
 show bg roof with dissolve
 
-"I've faceplanted on the ground and I struggle to get back up.  My knee's scraped up but its superficial."
+"I've faceplanted on the ground and I struggle to get back up.  My knee's scraped up but it's superficial."
 "I struggle to pull myself up as quick as I can, my vision still reeling from the instant of confusion."
-"Shaky with adrenaline, I manage to get up and and regain my bearings just in time to see a bright flash of light."
+"Shaky with adrenaline, I manage to get up and regain my bearings just in time to see a bright light flare up."
 
 show mori monster shadow with moveinbottom
 
-"For just a second, something hulking and large is silouetted against the glare."
+"For just a second, something hulking is silhouetted against the glare."
 "Something different then the stretched-out demon... something hairy and heavy, but fast and very quiet-"
 "But then the light fades and the rooftop is thrown into relative shadow again."
 
@@ -149,7 +150,7 @@ mori "Like a trauma blanket, right?"
 
 pov "Yeah I am {i}definitely traumatized{/i}."
 
-"I suddenly realize his hands are stained with blood so dark its almost black and recoil."
+"I suddenly realize his hands are stained with blood so dark it's almost black and recoil."
 
 hide mori shirt smile
 show mori shirt srs
@@ -191,7 +192,7 @@ label ch4_convo1b:
     "I look around frantically and sure enough, there's hardly a sign anything inhuman was running around up here."
    
 label ch4_movingon:
-    pov "Where's... where's the body, though?"
+    pov "Where's... where is it, though?"
 
 "Mori actually looks a little shifty for a second."
 "And he actually brings his filthy hand up to his lips while he scans the rooftops again, sucking on one of his knuckles absently."
@@ -221,6 +222,6 @@ label ch4_convo2b:
 
 label ch4_movingon2:
     "He wipes his gross hand on his pantleg and offers to help me stand."
-    "I VERY RELUCTANTLY take it and hope that my Extremely Stern Glare is enough to warn him that I refuse to take diversion once we've satisified his need to get somewhere safer."
+    "I VERY RELUCTANTLY take it and hope that my Extremely Stern Glare is enough to warn him that I refuse to take diversion once we've satisfied his need to get somewhere safer."
     
 return

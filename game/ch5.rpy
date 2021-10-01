@@ -2,7 +2,6 @@
 
 label ch5:
 
-hide mori shirt neu
 show mori shirt srs
 
 mori "Come on."
@@ -109,11 +108,12 @@ play sound "audio/thump.ogg" volume 0.5
 "It's stupid really because I know everything is happening in the space of a couple instants..."
 "But that thing, that animal..."
 "It coils and turns, tracking my fall with bright, luminous eyes that almost glow and I don't know how I'm so certain but I know that it's Mori..." 
-"Somehow, his human features still slightly recognizable even in that feral, predatory face."
+"Somehow, his human features are still slightly recognizable even in that feral, predatory face."
 "How...?"
 "But then he's obscured by the rim of the building as I plummet past it, falling towards certain death and the concrete below."
 
-"A heavy shape launches off the rooftop and onto the fire escape on the other side of the alley with apparently zero effort.  The steel whines loudly under its weight as the feline shape darts further downwards."
+"A blurred shape launches off the rooftop and onto the fire escape on the other side of the alley with apparently zero effort."  
+"The steel whines loudly and warps under its weight as the feline shape darts further downwards."
 "Hot on its twin, thick tails, the skittering shapes of demons come charging down behind him, tearing up concrete and denting a metal awning with a loud squeal of protest."
 "With incredible dexterity (and ignoring the things gaining on him), Mori leaps crosswise across the alley and intercepts my fall."
 
@@ -133,8 +133,8 @@ show bg alley with hpunch
 play music "audio/tense.ogg" fadeout 1.0 fadein 2.0
 
 "The demons are bearing down on us and the nearest one takes another swing with its horrible, twisted limb."
-"Mori's already on the move, hunching low as the threat comes with range of delivering a killing blow.  Mori's fast as hell, however."
-"I watch stupidly as his overbright, vertically slitted eyes dilate with pure bestial focus."
+"Mori's already on the move, hunching low as the threat comes within range of delivering a killing blow.  Mori's fast as hell, however."
+"I watch, frozen, as his overbright, vertically slitted eyes dilate with pure bestial focus."
 "He grabs the gnarled mess of demon appendage as it moves in, his own claws digging in tight and he {i}pulls{/i}.  The demon moves in close enough for its blue cop uniform to drag against me." 
 
 show bg alley with hpunch
@@ -147,7 +147,7 @@ play sound "audio/punch.wav"
 "In an instant, it's consumed by a flash of light- the same one I caught the end of before on the rooftop- and its corpse is gone, the neon blue blood spatters going dim and darkening rapidly."
 "But there's still two of those things right on our asses."
 "One reaches out to sink claws into Mori's unprotected side but a sudden pivot leaves it out of range, though several tufts of thick, silver fur disperse into the night."
-"We hit the ground hard enough to wind but not hard enough to injure and Mori rolls instantly, pushing me to my back and bracing over me protectively, ears swivelled back and sharp eyes tracking the threats."
+"We hit the ground hard enough to wind but not hard enough to injure and Mori rolls instantly, pushing me to my back and bracing over me protectively."
 
 show moricg1 with dissolve
 hide mori monster neu
@@ -160,7 +160,7 @@ pov "Yeah... Yeah, I'm fine.  Thank you..."
 
 "He lets out a breath through his nose, where there's a smear of dark red blood from the wall impact slowly coagulating."
 
-mori "We're not out of the woods yet, hang tight a sec."
+mori "We're not in the clear yet, hold on a second."
 
 "He pulls a face, one that's a little tense and shamed."
 
@@ -185,7 +185,7 @@ label ch5_convo1:
     show mori monster neu
 
     "Mori launches directly into the dual threat, heedless of the danger.  With slightly more than a few instants to register now, I can better see him in action."
-    "He switches between moving in a hunched, predatory quadrapedal lope and upright, but either way he's fast.  Faster than the demons."
+    "He switches between moving in a hunched, predatory quadrupedal lope and upright, but either way he's fast.  Faster than the demons."
     "He's able to get in close and sink claws and teeth into them without much issue, breaking past their guard and apparently unfazed by either their horrific appearances or god-awful smell."
     "His thick tails- split down the center into two independently moving appendages, thrash angrily and the wisps of flame following him cast a ghostly glow on the surrounding surfaces."
     "Honestly, it's only a couple of seconds before the alley is a veritable bloodbath."
@@ -199,7 +199,7 @@ label ch5_convo1b:
     "I have no idea what's going on really, no idea what those things are, why Mori turned into some kind of seven foot tall werecat or whatever the hell..."
     "It feels like a dream.  Or a nightmare, I guess.  Surreal and dangerously unstable."
     "The noises I'm hearing are grotesque.  Wet and liquidy and punctuated by various pops and dry, splintering cracks."
-    "There's a flash against my closed eyelids and the momentary intesnifying smell of sulfur, before it fades entirely, tells me Mori's done."
+    "There's a flash against my closed eyelids and the momentary intensifying smell of sulfur, before it fades entirely, tells me Mori's done."
 
 label ch5_movingon:
     show mori shirt neu with dissolve
@@ -222,9 +222,9 @@ menu:
 label ch5_convo2:
     mori "Okay, okay, I did promise"
     "Without any further needling, offers me a hand."
-    "I want to say that I consider for a second but in all honesty, I don't.  Maybe I don't fully trust him but it's hard not to give him the benefit of the doubt."
+    "I want to say that I deliberate for a second but in all honesty, I don't.  Maybe I don't fully trust him but it's hard not to give him the benefit of the doubt."
     "His hands are calloused and overwarm but, just like in Pitrats, it feels reassuring. "
-    "This time we keep to the stree, thankfully."
+    "This time we keep to the streets, thankfully."
     jump ch5_movingon2
 
 label ch5_convo2b:
@@ -235,7 +235,7 @@ label ch5_convo2b:
     hide mori shirt smile
     show mori shirt hehe
     
-    "He actually looks kind of embarassed for half a second.  But he recovers quick."
+    "He actually looks kind of embarrassed for half a second.  But he recovers quickly."
     
     mori "Is it working?"
     pov "{i}No!{/i}"
@@ -246,7 +246,7 @@ label ch5_movingon2:
     hide mori shirt smile
     show mori shirt neu
 
-    "I'm actually scared witless and monster or not, I'm very glad Mori's with me.  He's capable, if nothing else, though his careless nature and willingness to help are definitely ingratiating him to me."
+    "I'm actually scared witless and ven if Mori is some kind of monster himself, I just don’t find him threatening.  In fact, quite the opposite..."
     "Sure, he's the reason I was exposed to any of this but he also stuck his neck out to help when things got rough."
     "And maybe I'm kind of getting slightly attached to his lopsided smirk and his loud cackle."
 

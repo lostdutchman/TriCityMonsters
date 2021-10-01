@@ -5,7 +5,7 @@ label ch3:
 hide mori jacket srs
 show mori jacket smile
 
-"Without a word, he pulls me along with him him, his palm sliding down my arm to grab my hand."
+"Without a word, he pulls me along with him, his palm sliding down my arm to grab my hand."
 "It's sweaty..."
 "Not the most pleasant thing in the world, honestly, but I can't deny that I do feel a lot better with someone looking out for me."
 "Ahead of him I can make out the tall, thick figure of the vocalist and the rest of the band, moving with purpose towards the exit."
@@ -24,7 +24,7 @@ mori "Stay with me, you go down in a crowd like this you'll get hurt!"
 mori "Just like Black Friday CCTV footage!"
 
 "He nimbly sidesteps to the right, avoiding a {i}very{/i} aggravated looking officer by only a scant few inches, hauling me along like I weigh nothing."
-"Mori cackles loudly, looking- impossibly- delighted and ninety-nine percent unconcerned with the situation at large."
+"Mori cackles loudly, looking- frankly- delighted and ninety-nine percent unconcerned with the situation at large."
 "But he's caught up in the momentary victory... and doesn't see the next cop lunging at us from the side."
 
 pov "Watch out!"
@@ -34,18 +34,17 @@ hide mori jacket chaos
 show mori jacket grin
 
 mori "hehehh"
-mori "Thanks!  I didn't even see him!"
 
 "He spares a second to smirk widely at me.  Is he actually enjoying this?"
 "The cop recovers and makes to lunge again but Mori- without an iota of hesitation- shoulder checks him roughly and lets out another loud crow of laughter." 
 "The cop sags momentarily, winded and bruised..."
-"Okay, no, this really is fun for him."
+"Okay, no, he really is having fun."
 
 pov "They're gonna toss you straight in jail when they catch you!"
 
 mori "Ha, they gotta catch me first."
 
-"His smile is huge an earnest and there's a chaotic glint to his eyes that is, admittedly, a little adrenalizing to see."
+"His smile is huge and earnest and there's a chaotic glint to his eyes that is, admittedly, a little adrenalizing to see."
 
 hide pitratsin with dissolve
 
@@ -59,11 +58,11 @@ mori "Up. Hurry."
 
 hide mori jacket jacket grin with dissolve
 
-"Nodding faintly, I pull myself up as quick as I can.  The metal warps slightly beneath me, especially once Mori climbs up beneathe me."  
+"Nodding faintly, I pull myself up as quick as I can.  The metal warps slightly beneath me, especially once Mori climbs up beneath me."  
 "I reach the hatch without issue and yank on the ancient, grime-coated release lever, but it won't budge."
 "The scene below is still utter chaos and I can feel panicked sweat start to break out on my forehead..."
 "In the crowd, several furious cops point out our location to more fighting their way down from the alley entrance."
-"Starting to feel frantic, I yank as hard as I can. I can feel the latch digging painfully deep into the meat of my palm as I pull...  But it won't move."
+"Starting to feel frantic, I yank as hard as I can. I feel the latch digging painfully deep into the meat of my palm as I pull...  But it won't move."
 
 show mori jacket srs with moveinbottom
 
@@ -85,7 +84,7 @@ show mori jacket srs
 
 pov "Mori!"
 "He nearly falls as he's jerked violently downwards.  There's a cop halfway up the ladder, yanking on his leg with the full intent of tearing him right off it."
-"Without even pausing to consider whether it was a remotely good idea or not, Mori wrenches his leg back and kicks down, {i}hard{/i}." 
+"Without even pausing to consider the consequences, Mori wrenches his leg back and kicks down, {i}hard{/i}." 
 "His foot catches the cop in the side of the head and Mori pulls all the way free in the next second."
 mori "Let's go, we gotta hurry."
 pov "Are you {i}trying{/i} to get charged with assaulting an officer?  They're gonna throw the book at you if they catch you."

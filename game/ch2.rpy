@@ -70,6 +70,7 @@ label ch2_convo1b:
     "The crowd's so loud it's actually kind of competing with the band.  It's {i}deafening{/i}.  But the drums are still loud and clear over all the noise, untouchable even with minimal amplification."
 
 label ch2_movingon:
+    "It’s hardly a conscious decision: after a couple seconds I’m jumping with the rest of the punks, bouncing to the beat and moving in chaotic tandem."
     "Before I really even notice, their set's almost over."
     
 "The frontman announces their last song and the band goes at it with renewed vigor.  Mori's whole body is working to keep the energy going."  
@@ -81,7 +82,7 @@ hide mori jacket chaos with dissolve
 show bg venue with hpunch
 play sound "audio/thump.ogg"
 
-"There's out-of-place movement behind me.  For a wild second, I wonder if a second mosh pit's broken out back there but when I turn around, what I see instead makes my guts lurch."
+"There's out-of-place movement behind me.  For a wild second, I think a second mosh pit's broken out back there but when I turn around, what I see instead makes my guts lurch."
 
 play music "audio/tense.ogg" fadeout 2.0 fadein 1.0 volume 0.65
 
@@ -107,7 +108,7 @@ label ch2_convo2:
     play sound "audio/thump.ogg"
 
     "The cops are getting aggressive quickly- most people aren't listening and they can't control the horde of bodies at all."  
-    "I'm certain there must be more cops outside too and I wonder if they're having more luck coralling people."
+    "I'm certain there must be more cops outside too and I wonder if they're having more luck corralling people."
     "I know the alleys at street level are tight and dark... a few well placed cop cars would definitely hinder those trying to escape."
 
     show bg venue with hpunch
