@@ -140,7 +140,7 @@ play music "audio/roof.ogg" fadeout 1.0 fadein 1.25
 "He drops each one closed behind us and after the fourth or fifth one, the series of drab, dark ceilings opens up to a clouded night sky."
 "While the fresh air is a relief on my sweaty skin and general nervousness, my brain is assaulting me with the image of us trapped on the roof and surrounded by angry cops."
 
-show mori jacket smile with moveinbottom
+show mori shirt smile with moveinbottom
 
 "As Mori deftly pulls himself up behind me, I can see he looks casually alert but not really stressed, even as he moves to close the hatch."
 "His comfortable confidence is mildly infectious, I suppose, but it also really makes this seem like some kind of game to him."

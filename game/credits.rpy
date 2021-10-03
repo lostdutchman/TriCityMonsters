@@ -6,7 +6,7 @@ screen credits():
         hover "credits2.png"
         hotspot(565, 228, 206, 44) action OpenURL("https://twitter.com/SoftDutch")
         hotspot(787, 228, 244, 45) action OpenURL("https://studiopeaches.itch.io/")
-        hotspot(577, 530, 188, 53) action OpenURL("https://www.instagram.com/dela.png/")
+        hotspot(577, 530, 188, 53) action OpenURL("https://www.instagram.com/totatotii.png/?utm_medium=copy_link")
         hotspot(336, 776, 358, 53) action OpenURL("https://lemmasoft.renai.us/forums/viewtopic.php?t=22098")
         hotspot(336, 861, 136, 50) action OpenURL("https://www.pexels.com/")
         hotspot(519, 859, 156, 53) action OpenURL("https://pixabay.com/")
