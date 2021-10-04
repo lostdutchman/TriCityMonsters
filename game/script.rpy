@@ -8,6 +8,7 @@ default povname = "Emcee"
 default ending_progress = 0
 default same_name_flag = False
 image splash = "splash.png"
+image splas2 = "splash2.png"
 
 label splashscreen:
     scene black
@@ -15,6 +16,12 @@ label splashscreen:
 
     show splash with dissolve
     with Pause(2)
+
+    scene black with dissolve
+    with Pause(1)
+
+    show splash2 with dissolve
+    with Pause(6)
 
     scene black with dissolve
     with Pause(1)
