@@ -17,8 +17,15 @@ label splashscreen:
     show splash with dissolve
     with Pause(2)
 
+    # scene black with dissolve
+    # with Pause(1)
+
+    # show splash2 with dissolve
+    # with Pause(2)
+
     scene black with dissolve
     with Pause(1)
+
     return
     
 label start:
