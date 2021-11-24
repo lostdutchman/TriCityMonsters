@@ -19,13 +19,6 @@ label splashscreen:
 
     scene black with dissolve
     with Pause(1)
-
-    show splash2 with dissolve
-    with Pause(6)
-
-    scene black with dissolve
-    with Pause(1)
-
     return
     
 label start:
