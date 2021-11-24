@@ -419,6 +419,10 @@ screen main_menu():
             ## Help isn't necessary or relevant to mobile devices.
             #textbutton _("Help") action ShowMenu("help")
             imagebutton auto "gui/mm_help_%s.png" xpos 0.625 ypos 872 focus_mask True action ShowMenu("help") hovered [Play ("sound", "audio/neonbuzz.ogg") ]
+            imagebutton auto "gui/mm_discord_%s.png" xpos 0.040 ypos 0.65 focus_mask True action OpenURL("https://discord.gg/QzkrtdMQTz") hovered [Play ("sound", "audio/choice.ogg") ]
+            imagebutton auto "gui/mm_kofi_%s.png" xpos 0.090 ypos 0.65 focus_mask True action OpenURL("https://ko-fi.com/studiopeaches") hovered [Play ("sound", "audio/choice.ogg") ]
+            imagebutton auto "gui/mm_patreon_%s.png" xpos 0.140 ypos 0.65 focus_mask True action OpenURL("https://www.patreon.com/studiopeaches?fan_landing=true") hovered [Play ("sound", "audio/choice.ogg") ]
+           
 
         if renpy.variant("pc"):
 
